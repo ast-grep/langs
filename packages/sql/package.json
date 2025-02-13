@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@ast-grep/nursery": "0.0.2",
-    "@derekstride/tree-sitter-sql": "0.3.7",
+    "@derekstride/tree-sitter-sql": "0.3.8",
     "tree-sitter-cli": "0.24.6"
   },
   "publishConfig": {
