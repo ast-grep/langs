@@ -28,8 +28,8 @@ importers:
         specifier: 0.5.0
         version: 0.5.0(tree-sitter@0.21.1)
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   packages/c:
     dependencies:
@@ -44,8 +44,8 @@ importers:
         specifier: 0.23.5
         version: 0.23.5
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   packages/cpp:
     dependencies:
@@ -57,8 +57,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-cpp:
         specifier: 0.23.4
         version: 0.23.4
@@ -76,8 +76,8 @@ importers:
         specifier: 0.23.1
         version: 0.23.1(tree-sitter@0.21.1)
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   packages/python:
     dependencies:
@@ -89,8 +89,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-python:
         specifier: 0.23.6
         version: 0.23.6
@@ -108,8 +108,8 @@ importers:
         specifier: 0.3.7
         version: 0.3.7(tree-sitter@0.21.1)
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   packages/toml:
     dependencies:
@@ -124,8 +124,8 @@ importers:
         specifier: 0.7.0
         version: 0.7.0
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   scripts/create-lang:
     dependencies:
@@ -417,8 +417,8 @@ packages:
       tree-sitter:
         optional: true
 
-  tree-sitter-cli@0.24.6:
-    resolution: {integrity: sha512-FJ9B1XwXt8Auq75NK/6bpeci7avXSk73OMDq4elXHPS4ue11ZFeCrH/anVN/u5BAZjWqFO9nWGLNEdpdZOg+eA==}
+  tree-sitter-cli@0.25.3:
+    resolution: {integrity: sha512-Bk6ZUXG+cKnwZpfR/te4NDrKld90p6350eqWlbLwSpV9/8vmL/x8LCw+3k7quY9oMDaYoMXHMvokXJbkM5A7bA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
 
@@ -635,7 +635,7 @@ snapshots:
       node-addon-api: 8.3.0
       node-gyp-build: 4.8.4
 
-  tree-sitter-cli@0.24.6: {}
+  tree-sitter-cli@0.25.3: {}
 
   tree-sitter-cpp@0.23.4:
     dependencies:
