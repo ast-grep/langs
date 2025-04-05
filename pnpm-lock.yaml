@@ -31,8 +31,8 @@ importers:
         specifier: 0.6.0
         version: 0.6.0(tree-sitter@0.21.1)
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   packages/bash:
     dependencies:
@@ -47,8 +47,8 @@ importers:
         specifier: 0.23.3
         version: 0.23.3(tree-sitter@0.21.1)
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   packages/c:
     dependencies:
@@ -63,8 +63,8 @@ importers:
         specifier: 0.23.5
         version: 0.23.5
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   packages/cpp:
     dependencies:
@@ -76,8 +76,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-cpp:
         specifier: 0.23.4
         version: 0.23.4
@@ -95,8 +95,8 @@ importers:
         specifier: 0.23.1
         version: 0.23.1(tree-sitter@0.21.1)
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   packages/css:
     dependencies:
@@ -108,8 +108,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-css:
         specifier: 0.23.2
         version: 0.23.2
@@ -124,8 +124,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-dart:
         specifier: 1.0.0
         version: 1.0.0
@@ -140,8 +140,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-elixir:
         specifier: 0.3.4
         version: 0.3.4(tree-sitter@0.21.1)
@@ -156,8 +156,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-go:
         specifier: 0.23.4
         version: 0.23.4(tree-sitter@0.21.1)
@@ -172,8 +172,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-haskell:
         specifier: 0.23.1
         version: 0.23.1(tree-sitter@0.21.1)
@@ -188,8 +188,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-html:
         specifier: 0.23.2
         version: 0.23.2(tree-sitter@0.21.1)
@@ -204,8 +204,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-java:
         specifier: 0.23.5
         version: 0.23.5(tree-sitter@0.21.1)
@@ -220,8 +220,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-javascript:
         specifier: 0.23.1
         version: 0.23.1(tree-sitter@0.21.1)
@@ -236,8 +236,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-python:
         specifier: 0.23.6
         version: 0.23.6
@@ -252,8 +252,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-rust:
         specifier: 0.23.2
         version: 0.23.2
@@ -268,8 +268,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-scala:
         specifier: 0.23.4
         version: 0.23.4(tree-sitter@0.21.1)
@@ -287,8 +287,8 @@ importers:
         specifier: 0.3.8
         version: 0.3.8(tree-sitter@0.21.1)
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   packages/swift:
     dependencies:
@@ -300,8 +300,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
       tree-sitter-swift:
         specifier: 0.7.0
         version: 0.7.0(tree-sitter@0.21.1)
@@ -319,8 +319,8 @@ importers:
         specifier: 0.7.0
         version: 0.7.0
       tree-sitter-cli:
-        specifier: 0.24.6
-        version: 0.24.6
+        specifier: 0.25.3
+        version: 0.25.3
 
   scripts/create-lang:
     dependencies:
@@ -997,8 +997,8 @@ packages:
     engines: {node: '>=12.0.0'}
     hasBin: true
 
-  tree-sitter-cli@0.24.6:
-    resolution: {integrity: sha512-FJ9B1XwXt8Auq75NK/6bpeci7avXSk73OMDq4elXHPS4ue11ZFeCrH/anVN/u5BAZjWqFO9nWGLNEdpdZOg+eA==}
+  tree-sitter-cli@0.25.3:
+    resolution: {integrity: sha512-Bk6ZUXG+cKnwZpfR/te4NDrKld90p6350eqWlbLwSpV9/8vmL/x8LCw+3k7quY9oMDaYoMXHMvokXJbkM5A7bA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
 
@@ -1735,7 +1735,7 @@ snapshots:
 
   tree-sitter-cli@0.23.2: {}
 
-  tree-sitter-cli@0.24.6: {}
+  tree-sitter-cli@0.25.3: {}
 
   tree-sitter-cpp@0.23.4:
     dependencies:
