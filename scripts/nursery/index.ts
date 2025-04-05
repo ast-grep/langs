@@ -22,6 +22,10 @@ interface SetupConfig {
   treeSitterPackage: string
   /** Test cases running in CI */
   testRunner: (parse: (c: string) => SgRoot) => void
+  /** Path of the `src` directory inside the `tree-sitter-*` package. Useful for
+   * `tree-sitter-php`, `tree-sitter-typescript` and `tree-sitter-yaml`.
+   * @default "src" */
+  src?: string
 }
 
 function test(setupConfig: SetupConfig) {
@@ -44,13 +48,15 @@ export function setup(setupConfig: SetupConfig) {
 function copySrcIfNeeded(config: SetupConfig) {
   const { dirname, treeSitterPackage } = config
   const existing = path.join(dirname, 'src')
-  const src = path.join(dirname, 'node_modules', treeSitterPackage, 'src')
+  const src = config.src || 'src'
+  const source = path.join(dirname, 'node_modules', treeSitterPackage, src)
   if (fs.existsSync(existing)) {
     log('src exists, skipping copy')
     return
   }
+
   log('copying tree-sitter src')
-  fs.cpSync(src, 'src', { recursive: true })
+  fs.cpSync(source, 'src', { recursive: true })
 }
 
 interface NodeBasicInfo {
