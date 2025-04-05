@@ -35,7 +35,7 @@
   "devDependencies": {
     "@ast-grep/nursery": "0.0.2",
     "tree-sitter-cli": "0.24.6",
-    "tree-sitter-rust": "0.23.2"
+    "tree-sitter-rust": "0.24.0"
   },
   "publishConfig": {
     "access": "public",
