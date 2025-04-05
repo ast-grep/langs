@@ -194,6 +194,22 @@ importers:
         specifier: 0.23.5
         version: 0.23.5(tree-sitter@0.21.1)
 
+  packages/kotlin:
+    dependencies:
+      '@ast-grep/setup-lang':
+        specifier: 0.0.3
+        version: 0.0.3
+    devDependencies:
+      '@ast-grep/nursery':
+        specifier: 0.0.2
+        version: 0.0.2
+      tree-sitter-cli:
+        specifier: 0.24.6
+        version: 0.24.6
+      tree-sitter-kotlin:
+        specifier: 0.3.8
+        version: 0.3.8(tree-sitter@0.21.1)
+
   packages/python:
     dependencies:
       '@ast-grep/setup-lang':
@@ -990,6 +1006,15 @@ packages:
       tree-sitter:
         optional: true
 
+  tree-sitter-kotlin@0.3.8:
+    resolution: {integrity: sha512-A4obq6bjzmYrA+F0JLLoheFPcofFkctNaZSpnDd+GPn1SfVZLY4/GG4C0cYVBTOShuPBGGAOPLM1JWLZQV4m1g==}
+    peerDependencies:
+      tree-sitter: ^0.21.0
+      tree_sitter: '*'
+    peerDependenciesMeta:
+      tree_sitter:
+        optional: true
+
   tree-sitter-python@0.23.6:
     resolution: {integrity: sha512-yIM9z0oxKIxT7bAtPOhgoVl6gTXlmlIhue7liFT4oBPF/lha7Ha4dQBS82Av6hMMRZoVnFJI8M6mL+SwWoLD3A==}
     peerDependencies:
@@ -1679,6 +1704,12 @@ snapshots:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
     optionalDependencies:
+      tree-sitter: 0.21.1
+
+  tree-sitter-kotlin@0.3.8(tree-sitter@0.21.1):
+    dependencies:
+      node-addon-api: 7.1.1
+      node-gyp-build: 4.8.4
       tree-sitter: 0.21.1
 
   tree-sitter-python@0.23.6:
