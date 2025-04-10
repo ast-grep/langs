@@ -1,0 +1,47 @@
+{
+  "name": "@ast-grep/lang-typescript",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tree-sitter build -o parser.so ./node_modules/tree-sitter-typescript/typescript",
+    "source": "node nursery.js source",
+    "prepublishOnly": "node nursery.js source",
+    "postinstall": "node postinstall.js",
+    "test": "node nursery.js test"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "type.d.ts",
+    "postinstall.js",
+    "src",
+    "prebuilds"
+  ],
+  "keywords": ["ast-grep"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ast-grep/setup-lang": "0.0.3"
+  },
+  "peerDependencies": {
+    "tree-sitter-cli": "0.24.6"
+  },
+  "peerDependenciesMeta": {
+    "tree-sitter-cli": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@ast-grep/nursery": "0.0.3",
+    "tree-sitter-cli": "0.24.6",
+    "tree-sitter-typescript": "0.23.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["@ast-grep/lang-typescript", "tree-sitter-cli"]
+  }
+}
