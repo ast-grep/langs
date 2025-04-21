@@ -448,7 +448,7 @@ importers:
         version: 2.4.9
       typescript:
         specifier: ^5.7.3
-        version: 5.8.2
+        version: 5.8.3
 
   scripts/nursery:
     dependencies:
@@ -461,7 +461,7 @@ importers:
         version: 22.14.1
       typescript:
         specifier: ^5.7.3
-        version: 5.8.2
+        version: 5.8.3
 
   scripts/setup:
     devDependencies:
@@ -470,7 +470,7 @@ importers:
         version: 22.14.1
       typescript:
         specifier: ^5.7.3
-        version: 5.8.2
+        version: 5.8.3
 
 packages:
 
@@ -1273,8 +1273,8 @@ packages:
   tree-sitter@0.21.1:
     resolution: {integrity: sha512-7dxoA6kYvtgWw80265MyqJlkRl4yawIjO7S5MigytjELkX43fV2WsAXzsNfO7sBpPPCF5Gp0+XzHk0DwLCq3xQ==}
 
-  typescript@5.8.2:
-    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2032,7 +2032,7 @@ snapshots:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
 
-  typescript@5.8.2: {}
+  typescript@5.8.3: {}
 
   undici-types@6.21.0: {}
 
