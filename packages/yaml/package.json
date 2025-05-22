@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@ast-grep/nursery": "0.0.2",
-    "@tree-sitter-grammars/tree-sitter-yaml": "0.7.0",
+    "@tree-sitter-grammars/tree-sitter-yaml": "0.7.1",
     "tree-sitter-cli": "0.24.6"
   },
   "publishConfig": {
