@@ -351,8 +351,8 @@ importers:
         specifier: 0.24.6
         version: 0.24.6
       tree-sitter-scala:
-        specifier: 0.23.4
-        version: 0.23.4(tree-sitter@0.21.1)
+        specifier: 0.24.0
+        version: 0.24.0(tree-sitter@0.21.1)
 
   packages/sql:
     dependencies:
@@ -1330,8 +1330,8 @@ packages:
       tree-sitter:
         optional: true
 
-  tree-sitter-scala@0.23.4:
-    resolution: {integrity: sha512-bNUt7ccJVNRXbPno79XEdbECmO8RabVMUgki4oYmndbvOGKqVWTAjaw2lJRENX0NR5tbMPoSfeoX0uJV/15NrA==}
+  tree-sitter-scala@0.24.0:
+    resolution: {integrity: sha512-vkMuAUrBZ1zZz2XcGDQk18Kz73JkpgaeXzbNVobPke0G35sd9jH32aUxG6OLRKM7et0TbsfqkWf4DeJoGk4K1g==}
     peerDependencies:
       tree-sitter: ^0.21.1
     peerDependenciesMeta:
@@ -2137,7 +2137,7 @@ snapshots:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
 
-  tree-sitter-scala@0.23.4(tree-sitter@0.21.1):
+  tree-sitter-scala@0.24.0(tree-sitter@0.21.1):
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
