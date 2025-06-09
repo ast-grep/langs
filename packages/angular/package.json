@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@ast-grep/nursery": "0.0.4",
-    "tree-sitter-angular": "0.6.0",
+    "tree-sitter-angular": "0.6.2",
     "tree-sitter-cli": "0.25.6"
   },
   "publishConfig": {
