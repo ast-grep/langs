@@ -18,6 +18,100 @@ importers:
         specifier: 9.1.7
         version: 9.1.7
 
+  packages/all:
+    dependencies:
+      '@ast-grep/lang-angular':
+        specifier: workspace:*
+        version: link:../angular
+      '@ast-grep/lang-bash':
+        specifier: workspace:*
+        version: link:../bash
+      '@ast-grep/lang-c':
+        specifier: workspace:*
+        version: link:../c
+      '@ast-grep/lang-cpp':
+        specifier: workspace:*
+        version: link:../cpp
+      '@ast-grep/lang-csharp':
+        specifier: workspace:*
+        version: link:../csharp
+      '@ast-grep/lang-css':
+        specifier: workspace:*
+        version: link:../css
+      '@ast-grep/lang-dart':
+        specifier: workspace:*
+        version: link:../dart
+      '@ast-grep/lang-elixir':
+        specifier: workspace:*
+        version: link:../elixir
+      '@ast-grep/lang-go':
+        specifier: workspace:*
+        version: link:../go
+      '@ast-grep/lang-haskell':
+        specifier: workspace:*
+        version: link:../haskell
+      '@ast-grep/lang-html':
+        specifier: workspace:*
+        version: link:../html
+      '@ast-grep/lang-java':
+        specifier: workspace:*
+        version: link:../java
+      '@ast-grep/lang-javascript':
+        specifier: workspace:*
+        version: link:../javascript
+      '@ast-grep/lang-json':
+        specifier: workspace:*
+        version: link:../json
+      '@ast-grep/lang-kotlin':
+        specifier: workspace:*
+        version: link:../kotlin
+      '@ast-grep/lang-lua':
+        specifier: workspace:*
+        version: link:../lua
+      '@ast-grep/lang-php':
+        specifier: workspace:*
+        version: link:../php
+      '@ast-grep/lang-python':
+        specifier: workspace:*
+        version: link:../python
+      '@ast-grep/lang-ruby':
+        specifier: workspace:*
+        version: link:../ruby
+      '@ast-grep/lang-rust':
+        specifier: workspace:*
+        version: link:../rust
+      '@ast-grep/lang-scala':
+        specifier: workspace:*
+        version: link:../scala
+      '@ast-grep/lang-sql':
+        specifier: workspace:*
+        version: link:../sql
+      '@ast-grep/lang-swift':
+        specifier: workspace:*
+        version: link:../swift
+      '@ast-grep/lang-toml':
+        specifier: workspace:*
+        version: link:../toml
+      '@ast-grep/lang-tsx':
+        specifier: workspace:*
+        version: link:../tsx
+      '@ast-grep/lang-typescript':
+        specifier: workspace:*
+        version: link:../typescript
+      '@ast-grep/lang-yaml':
+        specifier: workspace:*
+        version: link:../yaml
+      '@ast-grep/napi':
+        specifier: ^0.37.0
+        version: 0.37.0
+    devDependencies:
+      '@types/node':
+        specifier: 22.14.1
+        version: 22.14.1
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
   packages/angular:
     dependencies:
       '@ast-grep/setup-lang':
