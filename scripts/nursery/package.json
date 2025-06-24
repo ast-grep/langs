@@ -12,7 +12,7 @@
     "prepublishOnly": "tsc"
   },
   "dependencies": {
-    "@ast-grep/napi": "0.38.5"
+    "@ast-grep/napi": "0.38.6"
   },
   "publishConfig": {
     "access": "public",
