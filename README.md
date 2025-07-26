@@ -8,13 +8,19 @@ Packages contain a list of prebuild tree-sitter grammars to use with the `@ast-g
 
 Typical usage:
 
-1. Install the language package in your project
+1. Install the language package in your project.
+
+> [!NOTE]
+> As of [PNPM version 10](https://socket.dev/blog/pnpm-10-0-0-blocks-lifecycle-scripts-by-default), postinstall scripts are no longer run by default. All language packages contain [postinstall](https://github.com/ast-grep/langs/blob/main/scripts/setup/index.ts#L20) scripts that will place the relevant language parsing library in the correct location for the targeted platform. You must explicitly allowlist the postinstall script to run for your desired language package.
 
 ```bash
+# PNPM <v10 - postinstall scripts run by default.
 pnpm install @ast-grep/lang-{name}
+# PNPM v10 and above: Explictly allow the postinstall script to run for this language package
+pnpm install --allow-build=@ast-grep/lang-{name} @ast-grep/lang-{name}
 pnpm install @ast-grep/napi
 # install the tree-sitter-cli if no prebuild is available
-pnpm install @tree-sitter/cli --save-dev
+pnpm install tree-sitter-cli --save-dev
 ```
 
 2. Use the language package in your project
