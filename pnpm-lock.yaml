@@ -28,8 +28,8 @@ importers:
         specifier: 0.0.5
         version: 0.0.5
       tree-sitter-angular:
-        specifier: 0.6.2
-        version: 0.6.2(tree-sitter@0.21.1)
+        specifier: 0.6.4
+        version: 0.6.4(tree-sitter@0.21.1)
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -1130,8 +1130,8 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  tree-sitter-angular@0.6.2:
-    resolution: {integrity: sha512-H63yGGwEJGC0HAKedbnexAWbLkz4TzgTZb2clJZN5BgEMpBk5CXQuOdWvaYpC67BVUuxoOFXZ/EWmIagyLIqYQ==}
+  tree-sitter-angular@0.6.4:
+    resolution: {integrity: sha512-nguYSWdbutN6KeUVMibXJcvwVqmgTUed2JRUg3D7B9g5doUoqQHvvdaP1xGCdcxV2YV3spNOz7ddLyURknJDzA==}
     peerDependencies:
       tree-sitter: ^0.21.1
       tree_sitter: '*'
@@ -1933,9 +1933,9 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  tree-sitter-angular@0.6.2(tree-sitter@0.21.1):
+  tree-sitter-angular@0.6.4(tree-sitter@0.21.1):
     dependencies:
-      node-addon-api: 8.3.1
+      node-addon-api: 8.4.0
       node-gyp-build: 4.8.4
       tree-sitter: 0.21.1
       tree-sitter-html: 0.23.2(tree-sitter@0.21.1)
@@ -1954,7 +1954,7 @@ snapshots:
 
   tree-sitter-c@0.23.5:
     dependencies:
-      node-addon-api: 8.3.0
+      node-addon-api: 8.4.0
       node-gyp-build: 4.8.4
 
   tree-sitter-c@0.24.1:
