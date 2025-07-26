@@ -399,8 +399,8 @@ importers:
         specifier: 0.25.8
         version: 0.25.8
       tree-sitter-swift:
-        specifier: 0.7.0
-        version: 0.7.0(tree-sitter@0.21.1)
+        specifier: 0.7.1
+        version: 0.7.1(tree-sitter@0.21.1)
 
   packages/toml:
     dependencies:
@@ -1240,8 +1240,8 @@ packages:
       tree-sitter:
         optional: true
 
-  tree-sitter-swift@0.7.0:
-    resolution: {integrity: sha512-cALPEQXdv60VBVTTCvvtJXNGcNchUr/olqtVPuEIovQ5yqRibnt1fNFxDD5ggcjEaA+IN1ggPdU3yT51ucesYw==}
+  tree-sitter-swift@0.7.1:
+    resolution: {integrity: sha512-pneKVTuGamaBsqqqfB9BvNQjktzh/0IVPR54jLB5Fq/JTDQwYHd0Wo6pVyZ5jAYpbztzq+rJ/rpL9ruxTmSoKw==}
     peerDependencies:
       tree-sitter: ^0.22.1
       tree_sitter: '*'
@@ -1963,7 +1963,7 @@ snapshots:
     optionalDependencies:
       tree-sitter: 0.21.1
 
-  tree-sitter-swift@0.7.0(tree-sitter@0.21.1):
+  tree-sitter-swift@0.7.1(tree-sitter@0.21.1):
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
