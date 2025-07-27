@@ -1,5 +1,11 @@
 # @ast-grep/lang-angular
 
+## 0.0.5
+
+### Patch Changes
+
+- f1dc21d: chore(deps): update dependency tree-sitter-angular to v0.6.4
+
 ## 0.0.4
 
 ### Patch Changes

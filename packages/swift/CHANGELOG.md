@@ -1,5 +1,11 @@
 # @ast-grep/lang-swift
 
+## 0.0.4
+
+### Patch Changes
+
+- b89ffac: chore(deps): update dependency tree-sitter-swift to v0.7.1
+
 ## 0.0.3
 
 ### Patch Changes

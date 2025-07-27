@@ -1,6 +1,6 @@
 {
   "name": "@ast-grep/lang-swift",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,10 @@
     "src",
     "prebuilds"
   ],
-  "keywords": ["ast-grep", "ast-grep-lang"],
+  "keywords": [
+    "ast-grep",
+    "ast-grep-lang"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -33,7 +36,7 @@
     }
   },
   "devDependencies": {
-    "@ast-grep/nursery": "0.0.5",
+    "@ast-grep/nursery": "0.0.6",
     "tree-sitter-cli": "0.25.8",
     "tree-sitter-swift": "0.7.1"
   },
@@ -42,6 +45,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["@ast-grep/lang-swift", "tree-sitter-cli"]
+    "onlyBuiltDependencies": [
+      "@ast-grep/lang-swift",
+      "tree-sitter-cli"
+    ]
   }
 }

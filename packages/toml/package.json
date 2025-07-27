@@ -18,7 +18,10 @@
     "src",
     "prebuilds"
   ],
-  "keywords": ["ast-grep", "ast-grep-lang"],
+  "keywords": [
+    "ast-grep",
+    "ast-grep-lang"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -42,6 +45,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["tree-sitter-cli"]
+    "onlyBuiltDependencies": [
+      "tree-sitter-cli"
+    ]
   }
 }

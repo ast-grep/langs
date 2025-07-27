@@ -1,6 +1,6 @@
 {
   "name": "@ast-grep/lang-angular",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,10 @@
     "src",
     "prebuilds"
   ],
-  "keywords": ["ast-grep", "ast-grep-lang"],
+  "keywords": [
+    "ast-grep",
+    "ast-grep-lang"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -33,7 +36,7 @@
     }
   },
   "devDependencies": {
-    "@ast-grep/nursery": "0.0.5",
+    "@ast-grep/nursery": "0.0.6",
     "tree-sitter-angular": "0.6.4",
     "tree-sitter-cli": "0.25.8"
   },
@@ -42,6 +45,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["tree-sitter-cli"]
+    "onlyBuiltDependencies": [
+      "tree-sitter-cli"
+    ]
   }
 }
