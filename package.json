@@ -1,15 +1,18 @@
 {
   "name": "@ast-grep/langs",
   "private": true,
-  "workspaces": ["packages/*", "scripts/*"],
+  "workspaces": [
+    "packages/*",
+    "scripts/*"
+  ],
   "version": "0.0.1",
   "description": "Monorepo for `@ast-grep/lang-*` packages",
   "scripts": {
     "postinstall": "pnpm -r compile-ts",
-    "format": "biome format --write",
-    "format:ci": "biome format",
-    "lint": "biome lint --fix",
-    "lint:ci": "biome lint",
+    "format": "dprint fmt",
+    "format:ci": "dprint check",
+    "lint": "oxlint --fix",
+    "lint:ci": "oxlint",
     "changeset": "changeset",
     "version": "changeset version",
     "prepare": "husky"
@@ -18,11 +21,14 @@
   "author": "Herrington Darkholme",
   "license": "MIT",
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
     "@changesets/cli": "^2.28.1",
-    "husky": "9.1.7"
+    "dprint": "0.50.1",
+    "husky": "9.1.7",
+    "oxlint": "1.8.0"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["tree-sitter-cli"]
+    "onlyBuiltDependencies": [
+      "tree-sitter-cli"
+    ]
   }
 }
