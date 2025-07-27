@@ -118,8 +118,7 @@ function generateLangNodeTypes(setupConfig: SetupConfig) {
   try {
     const nodeTypes = readLangNodeTypes(dirname)
     const nodeTypeMap = processNodeTypes(nodeTypes)
-    const fileContent =
-      `// Auto-generated from ${treeSitterPackage}` +
+    const fileContent = `// Auto-generated from ${treeSitterPackage}` +
       '\n' +
       `type ${lang}Types = ${JSON.stringify(nodeTypeMap, null, 2)};` +
       '\n' +
