@@ -28,7 +28,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@types/node": "22.16.5",
+    "@types/node": "22.17.1",
     "@types/prompts": "^2.4.9",
     "typescript": "^5.7.3"
   }
