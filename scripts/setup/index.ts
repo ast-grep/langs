@@ -19,15 +19,9 @@ interface SetupConfig {
  */
 function postinstall(config: SetupConfig) {
   const dir = config.dirname
-  const parser = path.join(dir, 'parser.so')
-  if (fs.existsSync(parser)) {
-    log('parser already exists, skipping build')
-    return
-  }
   const prebuild = resolvePrebuild(dir)
   if (prebuild) {
-    log('copying prebuild parser')
-    fs.copyFileSync(prebuild, parser)
+    log('prebuild found, do not need to build')
     return
   }
   try {
@@ -84,4 +78,4 @@ function resolvePrebuild(dir: string) {
   return prebuild
 }
 
-export { postinstall }
+export { postinstall, resolvePrebuild }

@@ -1,33 +1,30 @@
 const path = require('node:path')
+const fs = require('node:fs')
+const { resolvePrebuild } = require('@ast-grep/setup-lang')
 
-function getNativePath() {
-  if (process.platform === 'win32') {
-    if (process.arch === 'x64') {
-      return 'prebuilds/prebuild-Windows-X64/parser.so'
-    }
-
-    throw new Error(`Unsupported architecture on Windows: ${process.arch}`)
-  } else if (process.platform === 'darwin') {
-    if (process.arch === 'arm64') {
-      return 'prebuilds/prebuild-macOS-ARM64/parser.so';
-    }
-
-    throw new Error(`Unsupported architecture on macOS: ${process.arch}`)
-  } else if (process.platform === 'linux') {
-    if (process.arch === 'x64') {
-      return 'prebuilds/prebuild-Linux-X64/parser.so';
-    }
-
-    throw new Error(`Unsupported architecture on Linux: ${process.arch}`)
+function getLibPath() {
+  const prebuild = resolvePrebuild(__dirname)
+  if (prebuild) {
+    return prebuild;
   }
 
-  throw new Error(`Unsupported OS: ${process.platform}, architecture: ${process.arch}`)
+  const native = path.join(__dirname, 'parser.so');
+  if (fs.existsSync(native)) {
+    return native;
+  }
+
+  throw new Error('No parser found. Please ensure the parser is built or a prebuild is available.');
 }
 
-const libPath = path.join(__dirname, getNativePath())
+let libPath;
 
 module.exports = {
-  libraryPath: libPath,
+  get libraryPath() {
+    if (!libPath) {
+      libPath = getLibPath();
+    }
+    return libPath;
+  },
   extensions: ['c', 'h'],
   languageSymbol: 'tree_sitter_c',
   expandoChar: '_',
