@@ -1,5 +1,11 @@
 # @ast-grep/lang-sql
 
+## 0.0.5
+
+### Patch Changes
+
+- c0c69a2: enable runtime platform detection
+
 ## 0.0.4
 
 ### Patch Changes

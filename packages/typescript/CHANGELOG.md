@@ -1,5 +1,11 @@
 # @ast-grep/lang-typescript
 
+## 0.0.4
+
+### Patch Changes
+
+- c0c69a2: enable runtime platform detection
+
 ## 0.0.3
 
 ### Patch Changes
