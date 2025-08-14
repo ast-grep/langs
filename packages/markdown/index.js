@@ -5,25 +5,25 @@ const { resolvePrebuild } = require('@ast-grep/setup-lang')
 function getLibPath() {
   const prebuild = resolvePrebuild(__dirname)
   if (prebuild) {
-    return prebuild;
+    return prebuild
   }
 
-  const native = path.join(__dirname, 'parser.so');
+  const native = path.join(__dirname, 'parser.so')
   if (fs.existsSync(native)) {
-    return native;
+    return native
   }
 
-  throw new Error('No parser found. Please ensure the parser is built or a prebuild is available.');
+  throw new Error('No parser found. Please ensure the parser is built or a prebuild is available.')
 }
 
-let libPath;
+let libPath
 
 module.exports = {
   get libraryPath() {
     if (!libPath) {
-      libPath = getLibPath();
+      libPath = getLibPath()
     }
-    return libPath;
+    return libPath
   },
   extensions: ['md'],
   languageSymbol: 'tree_sitter_markdown',
