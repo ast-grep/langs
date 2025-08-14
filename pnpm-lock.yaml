@@ -24,12 +24,12 @@ importers:
   packages/angular:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-angular:
         specifier: 0.6.4
         version: 0.6.4(tree-sitter@0.21.1)
@@ -40,12 +40,12 @@ importers:
   packages/bash:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-bash:
         specifier: 0.25.0
         version: 0.25.0
@@ -56,12 +56,12 @@ importers:
   packages/c:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-c:
         specifier: 0.24.1
         version: 0.24.1
@@ -72,12 +72,12 @@ importers:
   packages/cpp:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -88,12 +88,12 @@ importers:
   packages/csharp:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-c-sharp:
         specifier: 0.23.1
         version: 0.23.1(tree-sitter@0.21.1)
@@ -104,12 +104,12 @@ importers:
   packages/css:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -120,12 +120,12 @@ importers:
   packages/dart:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -136,12 +136,12 @@ importers:
   packages/elixir:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -152,12 +152,12 @@ importers:
   packages/go:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -168,12 +168,12 @@ importers:
   packages/haskell:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -184,12 +184,12 @@ importers:
   packages/html:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -200,12 +200,12 @@ importers:
   packages/java:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -216,12 +216,12 @@ importers:
   packages/javascript:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -232,12 +232,12 @@ importers:
   packages/json:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -248,12 +248,12 @@ importers:
   packages/kotlin:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -264,12 +264,12 @@ importers:
   packages/lua:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       '@tree-sitter-grammars/tree-sitter-lua':
         specifier: 0.2.0
         version: 0.2.0(tree-sitter@0.21.1)
@@ -280,12 +280,12 @@ importers:
   packages/markdown:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       '@tree-sitter-grammars/tree-sitter-markdown':
         specifier: 0.3.2
         version: 0.3.2(tree-sitter@0.21.1)
@@ -296,12 +296,12 @@ importers:
   packages/php:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -312,12 +312,12 @@ importers:
   packages/python:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -328,12 +328,12 @@ importers:
   packages/ruby:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -344,12 +344,12 @@ importers:
   packages/rust:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -360,12 +360,12 @@ importers:
   packages/scala:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -376,12 +376,12 @@ importers:
   packages/sql:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       '@derekstride/tree-sitter-sql':
         specifier: 0.3.8
         version: 0.3.8(tree-sitter@0.21.1)
@@ -392,12 +392,12 @@ importers:
   packages/swift:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -408,8 +408,8 @@ importers:
   packages/toml:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
         specifier: workspace:*
@@ -424,12 +424,12 @@ importers:
   packages/tsx:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -440,12 +440,12 @@ importers:
   packages/typescript:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -456,12 +456,12 @@ importers:
   packages/yaml:
     dependencies:
       '@ast-grep/setup-lang':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
     devDependencies:
       '@ast-grep/nursery':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7
+        version: 0.0.7
       '@tree-sitter-grammars/tree-sitter-yaml':
         specifier: 0.7.1
         version: 0.7.1
@@ -567,11 +567,11 @@ packages:
     resolution: {integrity: sha512-q6ryspY37PKLrfx+jNQrnR1qYTahRQO2yAvlDK6X4b4AHRtg7mXlaccHGpAFtkTZLhdkI9nl1WHsuqmKx1HWhw==}
     engines: {node: '>= 10'}
 
-  '@ast-grep/nursery@0.0.6':
-    resolution: {integrity: sha512-ZYgS/caY5X7RF2kNX86OW8fIO14nfI+4/zEWt5QTQkcrZw2pSJwuASHPGWiIETAqNEnKvtglKcSDgrwHVxVP/w==}
+  '@ast-grep/nursery@0.0.7':
+    resolution: {integrity: sha512-M+AP0PqSytoTtaP/fXW4WZFvpLpJPdb6Tu7CFasNgs9objQa3vzJaB956bHs0edciHFYLzELASGox8vydG2sLw==}
 
-  '@ast-grep/setup-lang@0.0.3':
-    resolution: {integrity: sha512-+ZNOuf0r7ABVwOANrrQpUrUv7xyuhsZGyQ88WZCH/euQmIEvSH3JsUFevg/60M7hi8NVh4vfSQs6ajTpumSzxg==}
+  '@ast-grep/setup-lang@0.0.4':
+    resolution: {integrity: sha512-us5L9CU4pc/yLQbO82v7gkpwa66qRoQRJ3P+s36EC6ZXiYpQVbd13PLgh9bQ/LhGljEb/pcli0uclN/+S3IMSw==}
 
   '@babel/runtime@7.27.6':
     resolution: {integrity: sha512-vbavdySgbTTrmFE+EsiqUTzlOr5bzlnJtUv9PynGCAKvfQqjIXbvFdumPM/GxMDfyuGMJaJAU6TO4zc1Jf1i8Q==}
@@ -1398,11 +1398,11 @@ snapshots:
       '@ast-grep/napi-win32-ia32-msvc': 0.39.2
       '@ast-grep/napi-win32-x64-msvc': 0.39.2
 
-  '@ast-grep/nursery@0.0.6':
+  '@ast-grep/nursery@0.0.7':
     dependencies:
       '@ast-grep/napi': 0.39.2
 
-  '@ast-grep/setup-lang@0.0.3': {}
+  '@ast-grep/setup-lang@0.0.4': {}
 
   '@babel/runtime@7.27.6': {}
 
