@@ -73,5 +73,5 @@ It is used to copy and test the tree-sitter grammars.
 ### `scripts/setup`
 
 A postinstall script to setup parser dynamic library for the `@ast-grep/lang-*` packages.
-If there is prebuild available, it will copy the dynamic library according to the platform and architecture.
+If there is prebuild available, it does nothing.
 If there is no prebuild available, it will build the dynamic library from the tree-sitter grammar files.
