@@ -1,4 +1,6 @@
 const path = require('node:path')
+const fs = require('node:fs')
+const { resolvePrebuild } = require('@ast-grep/setup-lang')
 
 function getLibPath() {
   const prebuild = resolvePrebuild(__dirname)
