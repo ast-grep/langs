@@ -27,9 +27,6 @@
 "@ast-grep/lang-tsx": patch
 "@ast-grep/lang-typescript": patch
 "@ast-grep/lang-yaml": patch
-"@ast-grep/create-lang": patch
-"@ast-grep/nursery": patch
-"@ast-grep/setup-lang": patch
 ---
 
 enable runtime platform detection
