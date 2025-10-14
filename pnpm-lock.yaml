@@ -383,8 +383,8 @@ importers:
         specifier: 0.0.7
         version: 0.0.7
       '@derekstride/tree-sitter-sql':
-        specifier: 0.3.8
-        version: 0.3.8(tree-sitter@0.21.1)
+        specifier: 0.3.11
+        version: 0.3.11(tree-sitter@0.21.1)
       tree-sitter-cli:
         specifier: 0.25.8
         version: 0.25.8
@@ -690,8 +690,8 @@ packages:
   '@changesets/write@0.4.0':
     resolution: {integrity: sha512-CdTLvIOPiCNuH71pyDu3rA+Q0n65cmAbXnwWH84rKGiFumFzkmHNT8KHTMEchcxN+Kl8I54xGUhJ7l3E7X396Q==}
 
-  '@derekstride/tree-sitter-sql@0.3.8':
-    resolution: {integrity: sha512-KNDZv781A7AMa3alV8yv39kkl/AotTx3NQTSKCQMeEgBvHSzX+tIkImkKaPBBBjMDzi3hnoeQRDP5F4fJkw2fw==}
+  '@derekstride/tree-sitter-sql@0.3.11':
+    resolution: {integrity: sha512-YRtTXVWK4n7/3BUGchhGcW/IF1u2ldR2fd0t3Uw7ymbGXcRfiG3v1T6N43jQKXz2LwN+Nx+Ab96T0HtusBVH9g==}
     peerDependencies:
       tree-sitter: ^0.21.0
       tree_sitter: '*'
@@ -1644,7 +1644,7 @@ snapshots:
       human-id: 4.1.1
       prettier: 2.8.8
 
-  '@derekstride/tree-sitter-sql@0.3.8(tree-sitter@0.21.1)':
+  '@derekstride/tree-sitter-sql@0.3.11(tree-sitter@0.21.1)':
     dependencies:
       node-addon-api: 7.1.1
       node-gyp-build: 4.8.4
