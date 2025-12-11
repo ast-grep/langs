@@ -1,5 +1,14 @@
 # @ast-grep/lang-php
 
+## 0.0.5
+
+### Patch Changes
+
+- 159d98b: chore(deps): update dependency tree-sitter-php to v0.24.0
+- ceb780b: chore(deps): update dependency tree-sitter-php to v0.24.2
+- Updated dependencies [bb52937]
+  - @ast-grep/setup-lang@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

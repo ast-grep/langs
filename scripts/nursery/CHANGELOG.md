@@ -1,5 +1,11 @@
 # @ast-grep/nursery
 
+## 0.0.8
+
+### Patch Changes
+
+- 415367f: fix(deps): update dependency @ast-grep/napi to v0.39.3
+
 ## 0.0.6
 
 ### Patch Changes

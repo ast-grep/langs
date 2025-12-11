@@ -1,5 +1,13 @@
 # @ast-grep/lang-bash
 
+## 0.0.5
+
+### Patch Changes
+
+- b4b0c71: chore(deps): update dependency tree-sitter-bash to v0.25.1
+- Updated dependencies [bb52937]
+  - @ast-grep/setup-lang@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # @ast-grep/lang-go
 
+## 0.0.4
+
+### Patch Changes
+
+- bccac02: chore(deps): update dependency tree-sitter-go to v0.25.0
+- Updated dependencies [bb52937]
+  - @ast-grep/setup-lang@0.0.5
+
 ## 0.0.3
 
 ### Patch Changes

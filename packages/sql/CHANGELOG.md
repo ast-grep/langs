@@ -1,5 +1,13 @@
 # @ast-grep/lang-sql
 
+## 0.0.6
+
+### Patch Changes
+
+- 8ede859: chore(deps): update dependency @derekstride/tree-sitter-sql to v0.3.11
+- Updated dependencies [bb52937]
+  - @ast-grep/setup-lang@0.0.5
+
 ## 0.0.5
 
 ### Patch Changes

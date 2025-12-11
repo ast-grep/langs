@@ -1,5 +1,13 @@
 # @ast-grep/lang-javascript
 
+## 0.0.5
+
+### Patch Changes
+
+- 4b511dc: chore(deps): update dependency tree-sitter-javascript to v0.25.0
+- Updated dependencies [bb52937]
+  - @ast-grep/setup-lang@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes
