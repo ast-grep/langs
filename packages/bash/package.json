@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@ast-grep/nursery": "0.0.7",
-    "tree-sitter-bash": "0.25.0",
+    "tree-sitter-bash": "0.25.1",
     "tree-sitter-cli": "0.25.8"
   },
   "publishConfig": {
