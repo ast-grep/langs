@@ -19,7 +19,7 @@ interface SetupConfig {
  */
 function postinstall(config: SetupConfig) {
   const dir = config.dirname
-  const prebuild = resolvePrebuild(dir)
+  const prebuild = resolvePrebuild(dir, true)
   if (prebuild) {
     log('prebuild found, do not need to build')
     return
@@ -61,7 +61,7 @@ const ARCH_MAP: Record<string, string> = {
 /**
  * Resolve prebuild path
  */
-function resolvePrebuild(dir: string) {
+function resolvePrebuild(dir: string, needLog = false) {
   const os = PLATFORM_MAP[process.platform]
   const arch = ARCH_MAP[process.arch]
   const prebuild = path.join(
@@ -71,10 +71,14 @@ function resolvePrebuild(dir: string) {
     'parser.so',
   )
   if (!os || !arch || !fs.existsSync(prebuild)) {
-    log(`no prebuild for ${os} ${arch}`)
+    if (needLog) {
+      log(`no prebuild for ${os} ${arch}`)
+    }
     return undefined
   }
-  log(`found prebuild for ${os} ${arch}`)
+  if (needLog) {
+    log(`found prebuild for ${os} ${arch}`)
+  }
   return prebuild
 }
 
