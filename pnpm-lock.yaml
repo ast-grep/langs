@@ -114,8 +114,8 @@ importers:
         specifier: 0.25.8
         version: 0.25.8
       tree-sitter-css:
-        specifier: 0.23.2
-        version: 0.23.2
+        specifier: 0.25.0
+        version: 0.25.0
 
   packages/dart:
     dependencies:
@@ -1188,10 +1188,10 @@ packages:
       tree-sitter:
         optional: true
 
-  tree-sitter-css@0.23.2:
-    resolution: {integrity: sha512-B7teNQrPIEEus37nvv00FcW6tw3bXsMUAZDi56OyZAp8cNebA1NPBEZxzIabtyHQnwXSKXeRtUzYhWxTa0JuAg==}
+  tree-sitter-css@0.25.0:
+    resolution: {integrity: sha512-FRc9R8ePrwJiUhZsuZ/wcFQ3K8Z+9yCgDrrUjuYswGWlN89UvcB9vslTUGZElQWGwhS8sUw3/r2n4lpb2sxT4Q==}
     peerDependencies:
-      tree-sitter: ^0.22.4
+      tree-sitter: ^0.25.0
     peerDependenciesMeta:
       tree-sitter:
         optional: true
@@ -1984,9 +1984,9 @@ snapshots:
       node-gyp-build: 4.8.4
       tree-sitter-c: 0.23.5
 
-  tree-sitter-css@0.23.2:
+  tree-sitter-css@0.25.0:
     dependencies:
-      node-addon-api: 8.3.1
+      node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
 
   tree-sitter-dart@1.0.0:
