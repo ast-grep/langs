@@ -38,7 +38,7 @@
   "devDependencies": {
     "@ast-grep/nursery": "0.0.8",
     "tree-sitter-cli": "0.25.8",
-    "@tree-sitter-grammars/tree-sitter-lua": "0.2.0"
+    "@tree-sitter-grammars/tree-sitter-lua": "0.4.1"
   },
   "publishConfig": {
     "access": "public",
