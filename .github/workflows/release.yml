@@ -38,7 +38,7 @@ jobs:
         with:
           version: 9
       - name: Set up NodeJS
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           cache: pnpm
           registry-url: https://registry.npmjs.org/
@@ -71,7 +71,7 @@ jobs:
         with:
           version: 9
       - name: Set up NodeJS
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           cache: pnpm
           registry-url: https://registry.npmjs.org/
