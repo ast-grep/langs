@@ -53,7 +53,7 @@ jobs:
         run: pnpm test
         working-directory: ${{inputs.directory}}
       - name: Upload binaries
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           path: ${{inputs.directory}}/**/parser.so
           name: prebuild-${{runner.os}}-${{runner.arch}}
@@ -78,7 +78,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Download binaries
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v7
         with:
           path: ${{inputs.directory}}/prebuilds
           pattern: prebuild-*
