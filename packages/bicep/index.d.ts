@@ -6,5 +6,5 @@ type LanguageRegistration = {
   expandoChar?: string
 }
 
-declare const registratoin: LanguageRegistration
-export default registratoin
+declare const registration: LanguageRegistration
+export default registration
