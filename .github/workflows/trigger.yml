@@ -42,7 +42,7 @@ jobs:
     strategy:
       matrix:
         package-name: ${{ fromJson(needs.prepare.outputs.matrix) }}
-    uses: ast-grep/langs/.github/workflows/release.yml@multi-package
+    uses: ast-grep/langs/.github/workflows/release.yml@main
     with:
       directory: packages/${{ matrix.package-name }}
       dry-run: ${{ inputs.dry-run }}
