@@ -34,6 +34,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+      - name: Get package name
+        id: package
+        run: echo "name=$(echo "${{inputs.directory}}" | tr '/' '-')" >> $GITHUB_OUTPUT
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -57,7 +60,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: ${{inputs.directory}}/**/parser.so
-          name: prebuild-${{runner.os}}-${{runner.arch}}-${{inputs.directory}}
+          name: prebuild-${{steps.package.outputs.name}}-${{runner.os}}-${{runner.arch}}
           retention-days: 2
 
   package:
@@ -67,6 +70,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+      - name: Get package name
+        id: package
+        run: echo "name=$(echo "${{inputs.directory}}" | tr '/' '-')" >> $GITHUB_OUTPUT
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -82,7 +88,7 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           path: ${{inputs.directory}}/prebuilds
-          pattern: prebuild-*-${{inputs.directory}}
+          pattern: prebuild-${{steps.package.outputs.name}}-*
           # merge-multiple: true
       - name: Move sources
         run: pnpm source
