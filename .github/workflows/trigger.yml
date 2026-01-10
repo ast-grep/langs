@@ -6,8 +6,8 @@ on:
   #     - main
   workflow_dispatch:
     inputs:
-      package-name:
-        description: The name of the package
+      package-names:
+        description: Comma-separated list of package names (e.g. "typescript,python" or single "typescript")
         type: string
       dry-run:
         description: Dry run (no publish)
@@ -15,10 +15,36 @@ on:
         default: true
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Set matrix
+        id: set-matrix
+        run: |
+          # Split comma-separated package names into JSON array
+          IFS=',' read -ra PACKAGES <<< "${{ inputs.package-names }}"
+          # Trim whitespace and create JSON array
+          JSON="["
+          for i in "${!PACKAGES[@]}"; do
+            PKG=$(echo "${PACKAGES[$i]}" | xargs)
+            if [ $i -gt 0 ]; then
+              JSON+=","
+            fi
+            JSON+="\"$PKG\""
+          done
+          JSON+="]"
+          echo "matrix=$JSON" >> $GITHUB_OUTPUT
+
   npm-publish:
+    needs: prepare
+    strategy:
+      matrix:
+        package-name: ${{ fromJson(needs.prepare.outputs.matrix) }}
     uses: ast-grep/langs/.github/workflows/release.yml@main
     with:
-      directory: packages/${{inputs.package-name}}
+      directory: packages/${{ matrix.package-name }}
       dry-run: ${{ inputs.dry-run }}
     secrets:
       NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
