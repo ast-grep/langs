@@ -1,0 +1,55 @@
+{
+  "name": "@ast-grep/lang-bicep",
+  "version": "0.0.1",
+  "description": "Azure Bicep language support for ast-grep",
+  "main": "index.js",
+  "scripts": {
+    "build": "tree-sitter build -o parser.so",
+    "source": "node nursery.js source",
+    "prepublishOnly": "node nursery.js source",
+    "postinstall": "node postinstall.js",
+    "test": "node nursery.js test"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "type.d.ts",
+    "postinstall.js",
+    "src",
+    "prebuilds"
+  ],
+  "keywords": [
+    "ast-grep",
+    "ast-grep-lang",
+    "bicep",
+    "azure"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ast-grep/setup-lang": "0.0.6"
+  },
+  "peerDependencies": {
+    "tree-sitter-cli": "0.25.8"
+  },
+  "peerDependenciesMeta": {
+    "tree-sitter-cli": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@ast-grep/nursery": "0.0.9",
+    "tree-sitter-cli": "0.25.8",
+    "tree-sitter-bicep": "1.1.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@ast-grep/lang-bicep",
+      "tree-sitter-cli"
+    ]
+  }
+}
