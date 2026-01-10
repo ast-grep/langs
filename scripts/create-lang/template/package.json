@@ -22,7 +22,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ast-grep/setup-lang": "0.0.5"
+    "@ast-grep/setup-lang": "0.0.6"
   },
   "peerDependencies": {
     "tree-sitter-cli": "0.25.8"
@@ -33,7 +33,7 @@
     }
   },
   "devDependencies": {
-    "@ast-grep/nursery": "0.0.8",
+    "@ast-grep/nursery": "0.0.9",
     "tree-sitter-cli": "0.25.8"
   },
   "publishConfig": {
