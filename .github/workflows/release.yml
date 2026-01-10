@@ -57,7 +57,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: ${{inputs.directory}}/**/parser.so
-          name: prebuild-${{runner.os}}-${{runner.arch}}
+          name: prebuild-${{runner.os}}-${{runner.arch}}-${{inputs.directory}}
           retention-days: 2
 
   package:
@@ -82,7 +82,7 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           path: ${{inputs.directory}}/prebuilds
-          pattern: prebuild-*
+          pattern: prebuild-*-${{inputs.directory}}
           # merge-multiple: true
       - name: Move sources
         run: pnpm source
