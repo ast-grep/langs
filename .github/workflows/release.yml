@@ -92,6 +92,16 @@ jobs:
           path: ${{inputs.directory}}/prebuilds
           pattern: prebuild-${{steps.package.outputs.name}}-*
           # merge-multiple: true
+      - name: Rename artifacts to old format
+        shell: bash
+        run: |
+          cd ${{inputs.directory}}/prebuilds
+          for dir in prebuild-${{steps.package.outputs.name}}-*; do
+            if [ -d "$dir" ]; then
+              new_name=$(echo "$dir" | sed 's/^prebuild-${{steps.package.outputs.name}}-/prebuild-/')
+              mv "$dir" "$new_name"
+            fi
+          done
       - name: Move sources
         run: pnpm source
         working-directory: ${{inputs.directory}}
