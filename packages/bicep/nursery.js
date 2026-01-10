@@ -8,11 +8,11 @@ setup({
   treeSitterPackage: 'tree-sitter-bicep',
   languageRegistration,
   testRunner: parse => {
-    const sg = parse("var foo = 'bar'")
+    const sg = parse("param location string = 'eastus'")
     const root = sg.root()
     // Test basic pattern matching with metavar
-    const node = root.find('var $A')
-    assert.ok(node !== null, 'Should find variable declaration')
-    assert.equal(node.kind(), 'variable_declaration')
+    const node = root.find('param $NAME string')
+    assert.ok(node !== null, 'Should find parameter declaration')
+    assert.equal(node.kind(), 'parameter_declaration')
   },
 })
