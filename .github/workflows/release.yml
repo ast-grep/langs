@@ -36,6 +36,7 @@ jobs:
         uses: actions/checkout@v6
       - name: Get package name
         id: package
+        shell: bash
         run: echo "name=$(echo "${{inputs.directory}}" | tr '/' '-')" >> $GITHUB_OUTPUT
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -72,6 +73,7 @@ jobs:
         uses: actions/checkout@v6
       - name: Get package name
         id: package
+        shell: bash
         run: echo "name=$(echo "${{inputs.directory}}" | tr '/' '-')" >> $GITHUB_OUTPUT
       - name: Install pnpm
         uses: pnpm/action-setup@v4
