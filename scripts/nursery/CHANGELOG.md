@@ -1,5 +1,12 @@
 # @ast-grep/nursery
 
+## 0.0.9
+
+### Patch Changes
+
+- dcfa9f7: fix(deps): update dependency @ast-grep/napi to v0.40.3
+- d42ba73: bump ast-grep-napi version and release arm64 package
+
 ## 0.0.8
 
 ### Patch Changes

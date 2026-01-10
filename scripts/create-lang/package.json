@@ -1,10 +1,12 @@
 {
   "name": "@ast-grep/create-lang",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
   "description": "",
   "main": "index.js",
-  "keywords": ["ast-grep"],
+  "keywords": [
+    "ast-grep"
+  ],
   "author": "",
   "license": "ISC",
   "bin": {

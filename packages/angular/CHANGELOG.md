@@ -1,5 +1,14 @@
 # @ast-grep/lang-angular
 
+## 0.0.8
+
+### Patch Changes
+
+- d666222: chore(deps): update dependency tree-sitter-angular to v0.8.2
+- d42ba73: bump ast-grep-napi version and release arm64 package
+- Updated dependencies [d42ba73]
+  - @ast-grep/setup-lang@0.0.6
+
 ## 0.0.7
 
 ### Patch Changes

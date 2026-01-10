@@ -1,6 +1,6 @@
 {
   "name": "@ast-grep/lang-sql",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ast-grep/setup-lang": "0.0.5"
+    "@ast-grep/setup-lang": "0.0.6"
   },
   "peerDependencies": {
     "tree-sitter-cli": "0.25.8"
@@ -36,7 +36,7 @@
     }
   },
   "devDependencies": {
-    "@ast-grep/nursery": "0.0.8",
+    "@ast-grep/nursery": "0.0.9",
     "@derekstride/tree-sitter-sql": "0.3.11",
     "tree-sitter-cli": "0.25.8"
   },
