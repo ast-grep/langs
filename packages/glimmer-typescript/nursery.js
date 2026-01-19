@@ -4,7 +4,7 @@ const languageRegistration = require('./index')
 
 setup({
   dirname: __dirname,
-  name: 'glimmer-typescript',
+  name: 'glimmerTypescript',
   treeSitterPackage: 'tree-sitter-glimmer-typescript',
   languageRegistration,
   testRunner: (parse) => {

@@ -4,7 +4,7 @@ const languageRegistration = require('./index')
 
 setup({
   dirname: __dirname,
-  name: 'glimmer-javascript',
+  name: 'glimmerJavascript',
   treeSitterPackage: 'tree-sitter-glimmer-javascript',
   languageRegistration,
   testRunner: (parse) => {
