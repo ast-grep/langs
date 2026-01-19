@@ -29,21 +29,21 @@ export default class WelcomePageComponent extends Component {
     return this.args.extension ?? 'hbs';
   }
 }
-  `);
+  `)
     const root = sg.root()
 
     const getter = root.find({
       rule: {
-        kind: 'method_definition'
-      }
-    });
-    const property = getter.find({ rule: { kind: 'property_identifier' } });
+        kind: 'method_definition',
+      },
+    })
+    const property = getter.find({ rule: { kind: 'property_identifier' } })
     assert.equal(property.text(), 'extension')
 
-    const service = root.find({ rule: { kind: 'field_definition > property_identifier' } });
-    assert.equal(service.text(), 'session');
-  
-    const main_tag = root.find({ rule: { kind: 'glimmer_template > glimmer_opening_tag' } });
-    assert.equal(main_tag.text(), '<template>');
-  }
+    const service = root.find({ rule: { kind: 'field_definition > property_identifier' } })
+    assert.equal(service.text(), 'session')
+
+    const main_tag = root.find({ rule: { kind: 'glimmer_template > glimmer_opening_tag' } })
+    assert.equal(main_tag.text(), '<template>')
+  },
 })
