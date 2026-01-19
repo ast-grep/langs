@@ -165,6 +165,38 @@ importers:
         specifier: 0.3.4
         version: 0.3.4(tree-sitter@0.21.1)
 
+  packages/glimmer-javascript:
+    dependencies:
+      '@ast-grep/setup-lang':
+        specifier: 0.0.6
+        version: 0.0.6
+    devDependencies:
+      '@ast-grep/nursery':
+        specifier: 0.0.9
+        version: 0.0.9
+      tree-sitter-cli:
+        specifier: 0.25.8
+        version: 0.25.8
+      tree-sitter-glimmer-javascript:
+        specifier: 0.2.0
+        version: 0.2.0(tree-sitter@0.21.1)
+
+  packages/glimmer-typescript:
+    dependencies:
+      '@ast-grep/setup-lang':
+        specifier: 0.0.6
+        version: 0.0.6
+    devDependencies:
+      '@ast-grep/nursery':
+        specifier: 0.0.9
+        version: 0.0.9
+      tree-sitter-cli:
+        specifier: 0.25.8
+        version: 0.25.8
+      tree-sitter-glimmer-typescript:
+        specifier: 0.3.0
+        version: 0.3.0(tree-sitter@0.21.1)
+
   packages/go:
     dependencies:
       '@ast-grep/setup-lang':
@@ -1237,6 +1269,24 @@ packages:
     peerDependencies:
       tree-sitter: ^0.21.0
 
+  tree-sitter-glimmer-javascript@0.2.0:
+    resolution: {integrity: sha512-2EkpfYxsfNGWuGx3CmNRibkBMe739wtHLiRaQSsjXn3te8Ugk1lcqj3ZYAlwdid+ywe4+5nbc4ZsiJbeRIc2qw==}
+    peerDependencies:
+      tree-sitter: ^0.21.0
+      tree_sitter: '*'
+    peerDependenciesMeta:
+      tree_sitter:
+        optional: true
+
+  tree-sitter-glimmer-typescript@0.3.0:
+    resolution: {integrity: sha512-tDeaTBy7DC1LpJv+sg9/K0Y2tn0heSf5K2kol+igIEy7gHy5Lgojlb1UWUqKy177b8IJOgmblsy6xqP/S756Sg==}
+    peerDependencies:
+      tree-sitter: ^0.21.0
+      tree_sitter: '*'
+    peerDependenciesMeta:
+      tree_sitter:
+        optional: true
+
   tree-sitter-go@0.25.0:
     resolution: {integrity: sha512-APBc/Dq3xz/e35Xpkhb1blu5UgW+2E3RyGWawZSCNcbGwa7jhSQPS8KsUupuzBla8PCo8+lz9W/JDJjmfRa2tw==}
     peerDependencies:
@@ -2041,6 +2091,18 @@ snapshots:
   tree-sitter-elixir@0.3.4(tree-sitter@0.21.1):
     dependencies:
       node-addon-api: 7.1.1
+      node-gyp-build: 4.8.4
+      tree-sitter: 0.21.1
+
+  tree-sitter-glimmer-javascript@0.2.0(tree-sitter@0.21.1):
+    dependencies:
+      node-addon-api: 8.5.0
+      node-gyp-build: 4.8.4
+      tree-sitter: 0.21.1
+
+  tree-sitter-glimmer-typescript@0.3.0(tree-sitter@0.21.1):
+    dependencies:
+      node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
       tree-sitter: 0.21.1
 
