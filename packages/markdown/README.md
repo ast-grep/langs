@@ -8,7 +8,7 @@ In a pnpm project, run:
 pnpm install @ast-grep/lang-markdown
 pnpm install @ast-grep/napi
 # install the tree-sitter-cli if no prebuild is available
-pnpm install @tree-sitter/cli --save-dev
+pnpm install tree-sitter-cli --save-dev
 ```
 
 ## Usage
