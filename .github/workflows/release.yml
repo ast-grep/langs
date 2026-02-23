@@ -46,6 +46,7 @@ jobs:
         uses: actions/setup-node@v6
         with:
           cache: pnpm
+          node-version: ">= 21"
           registry-url: https://registry.npmjs.org/
       - name: Install dependencies
         run: pnpm install
@@ -83,6 +84,7 @@ jobs:
         uses: actions/setup-node@v6
         with:
           cache: pnpm
+          node-version: ">= 21"
           registry-url: https://registry.npmjs.org/
       - name: Install dependencies
         run: pnpm install

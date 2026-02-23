@@ -1,0 +1,6 @@
+{
+  "[javascript][json][jsonc][typescript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.minimap.maxColumn": 80
+  }
+}
