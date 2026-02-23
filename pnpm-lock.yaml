@@ -466,8 +466,8 @@ importers:
         specifier: 0.25.8
         version: 0.25.8
       tree-sitter-systemverilog:
-        specifier: github:gmlarumbe/tree-sitter-systemverilog
-        version: https://codeload.github.com/gmlarumbe/tree-sitter-systemverilog/tar.gz/293928578cb27fbd0005fcc5f09c09a1e8628c89
+        specifier: github:gmlarumbe/tree-sitter-systemverilog#v0.3.1
+        version: https://codeload.github.com/gmlarumbe/tree-sitter-systemverilog/tar.gz/e88937e66adc3ee7be0bfe40b7e937eafe4212bb
 
   packages/toml:
     dependencies:
@@ -1783,8 +1783,8 @@ packages:
       tree_sitter:
         optional: true
 
-  tree-sitter-systemverilog@https://codeload.github.com/gmlarumbe/tree-sitter-systemverilog/tar.gz/293928578cb27fbd0005fcc5f09c09a1e8628c89:
-    resolution: {tarball: https://codeload.github.com/gmlarumbe/tree-sitter-systemverilog/tar.gz/293928578cb27fbd0005fcc5f09c09a1e8628c89}
+  tree-sitter-systemverilog@https://codeload.github.com/gmlarumbe/tree-sitter-systemverilog/tar.gz/e88937e66adc3ee7be0bfe40b7e937eafe4212bb:
+    resolution: {tarball: https://codeload.github.com/gmlarumbe/tree-sitter-systemverilog/tar.gz/e88937e66adc3ee7be0bfe40b7e937eafe4212bb}
     version: 0.3.1
     peerDependencies:
       tree-sitter: ^0.25.0
@@ -2953,7 +2953,7 @@ snapshots:
       tree-sitter-cli: 0.23.2
       which: 2.0.2
 
-  tree-sitter-systemverilog@https://codeload.github.com/gmlarumbe/tree-sitter-systemverilog/tar.gz/293928578cb27fbd0005fcc5f09c09a1e8628c89:
+  tree-sitter-systemverilog@https://codeload.github.com/gmlarumbe/tree-sitter-systemverilog/tar.gz/e88937e66adc3ee7be0bfe40b7e937eafe4212bb:
     dependencies:
       node-addon-api: 8.5.0
       node-gyp: 11.5.0

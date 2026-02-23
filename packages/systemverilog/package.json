@@ -38,7 +38,7 @@
   "devDependencies": {
     "@ast-grep/nursery": "0.0.9",
     "tree-sitter-cli": "0.25.8",
-    "tree-sitter-systemverilog": "github:gmlarumbe/tree-sitter-systemverilog"
+    "tree-sitter-systemverilog": "github:gmlarumbe/tree-sitter-systemverilog#v0.3.1"
   },
   "publishConfig": {
     "access": "public",
