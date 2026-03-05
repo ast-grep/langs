@@ -32,4 +32,4 @@
 "@ast-grep/lang-c": patch
 ---
 
-Fix type declarations
+Convert TypeScript declarations from default exports to export assignments
