@@ -1,10 +1,10 @@
 type LanguageRegistration = {
-  libraryPath: string
-  extensions: string[]
-  languageSymbol?: string
-  metaVarChar?: string
-  expandoChar?: string
-}
+  libraryPath: string;
+  extensions: string[];
+  languageSymbol?: string;
+  metaVarChar?: string;
+  expandoChar?: string;
+};
 
-declare const registratoin: LanguageRegistration
-export default registratoin
+declare const registration: LanguageRegistration;
+export = registration;
