@@ -28,7 +28,7 @@
     "@ast-grep/setup-lang": "0.0.6"
   },
   "peerDependencies": {
-    "tree-sitter-cli": "0.25.8"
+    "tree-sitter-cli": "0.26.6"
   },
   "peerDependenciesMeta": {
     "tree-sitter-cli": {
@@ -38,7 +38,7 @@
   "devDependencies": {
     "@ast-grep/nursery": "0.0.9",
     "@derekstride/tree-sitter-sql": "0.3.11",
-    "tree-sitter-cli": "0.25.8"
+    "tree-sitter-cli": "0.26.6"
   },
   "publishConfig": {
     "access": "public",
