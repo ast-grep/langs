@@ -7,4 +7,4 @@ type LanguageRegistration = {
 }
 
 declare const registration: LanguageRegistration
-export default registration
+export = registration
