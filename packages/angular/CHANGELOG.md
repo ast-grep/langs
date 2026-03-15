@@ -1,5 +1,12 @@
 # @ast-grep/lang-angular
 
+## 0.0.10
+
+### Patch Changes
+
+- aaa7c3f: chore(deps): update dependency tree-sitter-angular to v0.8.4
+- 74372fd: Convert TypeScript declarations from default exports to export assignments
+
 ## 0.0.8
 
 ### Patch Changes

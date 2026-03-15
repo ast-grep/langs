@@ -1,5 +1,11 @@
 # @ast-grep/lang-sql
 
+## 0.0.8
+
+### Patch Changes
+
+- 74372fd: Convert TypeScript declarations from default exports to export assignments
+
 ## 0.0.7
 
 ### Patch Changes

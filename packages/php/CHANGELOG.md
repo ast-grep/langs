@@ -1,5 +1,11 @@
 # @ast-grep/lang-php
 
+## 0.0.7
+
+### Patch Changes
+
+- 74372fd: Convert TypeScript declarations from default exports to export assignments
+
 ## 0.0.6
 
 ### Patch Changes
