@@ -16,7 +16,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "typescript": "^5.7.3",
+    "typescript": "^6.0.0",
     "@types/node": "24.12.0"
   }
 }
