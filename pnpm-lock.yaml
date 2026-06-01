@@ -111,8 +111,8 @@ importers:
         specifier: 0.0.9
         version: 0.0.9
       tree-sitter-c-sharp:
-        specifier: 0.23.1
-        version: 0.23.1(tree-sitter@0.21.1)
+        specifier: 0.23.5
+        version: 0.23.5
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -1365,10 +1365,10 @@ packages:
       tree-sitter:
         optional: true
 
-  tree-sitter-c-sharp@0.23.1:
-    resolution: {integrity: sha512-9zZ4FlcTRWWfRf6f4PgGhG8saPls6qOOt75tDfX7un9vQZJmARjPrAC6yBNCX2T/VKcCjIDbgq0evFaB3iGhQw==}
+  tree-sitter-c-sharp@0.23.5:
+    resolution: {integrity: sha512-xJGOeXPMmld0nES5+080N/06yY6LQi+KWGWV4LfZaZe6srJPtUtfhIbRSN7EZN6IaauzW28v6W4QHFwmeUW6HQ==}
     peerDependencies:
-      tree-sitter: ^0.21.1
+      tree-sitter: ^0.25.0
     peerDependenciesMeta:
       tree-sitter:
         optional: true
@@ -2286,12 +2286,10 @@ snapshots:
       node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
 
-  tree-sitter-c-sharp@0.23.1(tree-sitter@0.21.1):
+  tree-sitter-c-sharp@0.23.5:
     dependencies:
-      node-addon-api: 8.3.0
+      node-addon-api: 8.6.0
       node-gyp-build: 4.8.4
-    optionalDependencies:
-      tree-sitter: 0.21.1
 
   tree-sitter-c@0.23.5:
     dependencies:
