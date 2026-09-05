@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@changesets/cli':
         specifier: ^2.28.1
-        version: 2.31.0(@types/node@24.13.2)
+        version: 2.31.1(@types/node@24.13.2)
       dprint:
         specifier: 0.55.1
         version: 0.55.1
@@ -64,7 +64,7 @@ importers:
         version: 0.0.9
       tree-sitter-bicep:
         specifier: 1.1.0
-        version: 1.1.0
+        version: 1.1.0(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -80,7 +80,7 @@ importers:
         version: 0.0.9
       tree-sitter-c:
         specifier: 0.24.1
-        version: 0.24.1
+        version: 0.24.1(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -320,7 +320,7 @@ importers:
         version: 0.0.9
       '@tree-sitter-grammars/tree-sitter-lua':
         specifier: 0.4.1
-        version: 0.4.1
+        version: 0.4.1(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -355,7 +355,7 @@ importers:
         version: 0.26.7
       tree-sitter-php:
         specifier: 0.24.2
-        version: 0.24.2
+        version: 0.24.2(tree-sitter@0.22.4)
 
   packages/python:
     dependencies:
@@ -403,7 +403,7 @@ importers:
         version: 0.26.7
       tree-sitter-rust:
         specifier: 0.23.2
-        version: 0.23.2
+        version: 0.23.2(tree-sitter@0.22.4)
 
   packages/scala:
     dependencies:
@@ -451,7 +451,7 @@ importers:
         version: 0.26.7
       tree-sitter-swift:
         specifier: 0.7.1
-        version: 0.7.1(tree-sitter@0.21.1)
+        version: 0.7.1(tree-sitter@0.22.4)
 
   packages/toml:
     dependencies:
@@ -464,7 +464,7 @@ importers:
         version: link:../../scripts/nursery
       '@tree-sitter-grammars/tree-sitter-toml':
         specifier: 0.7.0
-        version: 0.7.0
+        version: 0.7.0(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -512,7 +512,7 @@ importers:
         version: 0.0.9
       '@tree-sitter-grammars/tree-sitter-yaml':
         specifier: 0.7.1
-        version: 0.7.1
+        version: 0.7.1(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -692,8 +692,8 @@ packages:
   '@changesets/changelog-git@0.2.1':
     resolution: {integrity: sha512-x/xEleCFLH28c3bQeQIyeZf8lFXyDFVn1SgcBiR2Tw/r4IAWlk1fzxCEZ6NxQAjF2Nwtczoen3OA2qR+UawQ8Q==}
 
-  '@changesets/cli@2.31.0':
-    resolution: {integrity: sha512-AhI4enNTgHu2IZr6K4WZyf0EPch4XVMn1yOMFmCD9gsfBGqMYaHXls5HyDv6/CL5axVQABz68eG30eCtbr2wFg==}
+  '@changesets/cli@2.31.1':
+    resolution: {integrity: sha512-uO05WTcRBwuVOJVSW8Cmpqw6q0WDL53ajGCMyszutvOe5toOnunbpM4jZzf+qxBOz7i0AzopZ8diBuewjmF40w==}
     hasBin: true
 
   '@changesets/config@3.1.4':
@@ -1563,6 +1563,9 @@ packages:
   tree-sitter@0.21.1:
     resolution: {integrity: sha512-7dxoA6kYvtgWw80265MyqJlkRl4yawIjO7S5MigytjELkX43fV2WsAXzsNfO7sBpPPCF5Gp0+XzHk0DwLCq3xQ==}
 
+  tree-sitter@0.22.4:
+    resolution: {integrity: sha512-usbHZP9/oxNsUY65MQUsduGRqDHQOou1cagUSwjhoSYAmSahjQDAVsh9s+SlZkn8X8+O1FULRGwHu7AFP3kjzg==}
+
   typescript@5.9.3:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
@@ -1697,7 +1700,7 @@ snapshots:
     dependencies:
       '@changesets/types': 6.1.0
 
-  '@changesets/cli@2.31.0(@types/node@24.13.2)':
+  '@changesets/cli@2.31.1(@types/node@24.13.2)':
     dependencies:
       '@changesets/apply-release-plan': 7.1.1
       '@changesets/assemble-release-plan': 6.0.10
@@ -1954,10 +1957,12 @@ snapshots:
   '@oxlint/binding-win32-x64-msvc@1.67.0':
     optional: true
 
-  '@tree-sitter-grammars/tree-sitter-lua@0.4.1':
+  '@tree-sitter-grammars/tree-sitter-lua@0.4.1(tree-sitter@0.22.4)':
     dependencies:
       node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   '@tree-sitter-grammars/tree-sitter-markdown@0.3.2(tree-sitter@0.21.1)':
     dependencies:
@@ -1965,15 +1970,19 @@ snapshots:
       node-gyp-build: 4.8.4
       tree-sitter: 0.21.1
 
-  '@tree-sitter-grammars/tree-sitter-toml@0.7.0':
+  '@tree-sitter-grammars/tree-sitter-toml@0.7.0(tree-sitter@0.22.4)':
     dependencies:
       node-addon-api: 8.3.0
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
-  '@tree-sitter-grammars/tree-sitter-yaml@0.7.1':
+  '@tree-sitter-grammars/tree-sitter-yaml@0.7.1(tree-sitter@0.22.4)':
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   '@types/node@12.20.55': {}
 
@@ -2294,10 +2303,12 @@ snapshots:
       node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
 
-  tree-sitter-bicep@1.1.0:
+  tree-sitter-bicep@1.1.0(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   tree-sitter-c-sharp@0.23.5:
     dependencies:
@@ -2309,10 +2320,12 @@ snapshots:
       node-addon-api: 8.8.0
       node-gyp-build: 4.8.4
 
-  tree-sitter-c@0.24.1:
+  tree-sitter-c@0.24.1(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   tree-sitter-cli@0.23.2: {}
 
@@ -2402,10 +2415,12 @@ snapshots:
       node-gyp-build: 4.8.4
       tree-sitter: 0.21.1
 
-  tree-sitter-php@0.24.2:
+  tree-sitter-php@0.24.2(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   tree-sitter-python@0.25.0:
     dependencies:
@@ -2419,10 +2434,12 @@ snapshots:
     optionalDependencies:
       tree-sitter: 0.21.1
 
-  tree-sitter-rust@0.23.2:
+  tree-sitter-rust@0.23.2(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   tree-sitter-scala@0.24.0(tree-sitter@0.21.1):
     dependencies:
@@ -2431,11 +2448,11 @@ snapshots:
     optionalDependencies:
       tree-sitter: 0.21.1
 
-  tree-sitter-swift@0.7.1(tree-sitter@0.21.1):
+  tree-sitter-swift@0.7.1(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
-      tree-sitter: 0.21.1
+      tree-sitter: 0.22.4
       tree-sitter-cli: 0.23.2
       which: 2.0.2
 
@@ -2448,6 +2465,11 @@ snapshots:
       tree-sitter: 0.21.1
 
   tree-sitter@0.21.1:
+    dependencies:
+      node-addon-api: 8.8.0
+      node-gyp-build: 4.8.4
+
+  tree-sitter@0.22.4:
     dependencies:
       node-addon-api: 8.8.0
       node-gyp-build: 4.8.4
