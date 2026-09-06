@@ -12,8 +12,8 @@ importers:
         specifier: ^2.28.1
         version: 2.31.0(@types/node@24.13.2)
       dprint:
-        specifier: 0.55.1
-        version: 0.55.1
+        specifier: 0.57.4
+        version: 0.57.4
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -64,7 +64,7 @@ importers:
         version: 0.0.9
       tree-sitter-bicep:
         specifier: 1.1.0
-        version: 1.1.0
+        version: 1.1.0(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -80,7 +80,7 @@ importers:
         version: 0.0.9
       tree-sitter-c:
         specifier: 0.24.1
-        version: 0.24.1
+        version: 0.24.1(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -320,7 +320,7 @@ importers:
         version: 0.0.9
       '@tree-sitter-grammars/tree-sitter-lua':
         specifier: 0.4.1
-        version: 0.4.1
+        version: 0.4.1(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -355,7 +355,7 @@ importers:
         version: 0.26.7
       tree-sitter-php:
         specifier: 0.24.2
-        version: 0.24.2
+        version: 0.24.2(tree-sitter@0.22.4)
 
   packages/python:
     dependencies:
@@ -403,7 +403,7 @@ importers:
         version: 0.26.7
       tree-sitter-rust:
         specifier: 0.23.2
-        version: 0.23.2
+        version: 0.23.2(tree-sitter@0.22.4)
 
   packages/scala:
     dependencies:
@@ -451,7 +451,7 @@ importers:
         version: 0.26.7
       tree-sitter-swift:
         specifier: 0.7.1
-        version: 0.7.1(tree-sitter@0.21.1)
+        version: 0.7.1(tree-sitter@0.22.4)
 
   packages/toml:
     dependencies:
@@ -464,7 +464,7 @@ importers:
         version: link:../../scripts/nursery
       '@tree-sitter-grammars/tree-sitter-toml':
         specifier: 0.7.0
-        version: 0.7.0
+        version: 0.7.0(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -512,7 +512,7 @@ importers:
         version: 0.0.9
       '@tree-sitter-grammars/tree-sitter-yaml':
         specifier: 0.7.1
-        version: 0.7.1
+        version: 0.7.1(tree-sitter@0.22.4)
       tree-sitter-cli:
         specifier: 0.26.7
         version: 0.26.7
@@ -747,78 +747,87 @@ packages:
       tree_sitter:
         optional: true
 
-  '@dprint/android-arm64@0.55.1':
-    resolution: {integrity: sha512-H1UQIcBJEo1dA8AVrkPnw5AYMMGHNe4w0lq9rEDSY3Lds0VUKACu2MK3JLNARpjljh3WKeO109J26Wpq8PTuGQ==}
+  '@dprint/android-arm64@0.57.4':
+    resolution: {integrity: sha512-vpafWVSNbB5ShCThZC3O5xOPsdxc2oeLedFVCsscSRf/iR6WZ62ROU2AGcxsJyE2y4/vxivejenbNYjWxL24sQ==}
     cpu: [arm64]
     os: [android]
 
-  '@dprint/android-x64@0.55.1':
-    resolution: {integrity: sha512-8dPiGpEo4S4cQhnLaoHtNm4HiqR9DIPr/81z3gWb5qTmJp8bKj+3DO4mAmmldMRBicmpXCss0xudniNTxnWOMg==}
+  '@dprint/android-x64@0.57.4':
+    resolution: {integrity: sha512-Zv2I12Zs9IK8yv1wdXGWluUram9h8Acy3NuF/7WzsxIfdlmnWzUGxoc4Z0dno6aJpv0ViXybkIHPvDKrQnvxVA==}
     cpu: [x64]
     os: [android]
 
-  '@dprint/darwin-arm64@0.55.1':
-    resolution: {integrity: sha512-c65u8f63R/etCKP0CZ/RkbMCRC99wgZDt/vhwjY2QdO0k23dMKXKEV6+ruUEwV2toh+QIRT02dRL7BtxjA0V7w==}
+  '@dprint/darwin-arm64@0.57.4':
+    resolution: {integrity: sha512-2V1BzlP+5aLxMaq77MUn2EdRX+UtOq34QjyMwpq1wQkR5MAT2cglJro4Eh1tsI+btjt3FMsX4/PLvz6eUSLl3g==}
     cpu: [arm64]
     os: [darwin]
 
-  '@dprint/darwin-x64@0.55.1':
-    resolution: {integrity: sha512-AsET9+4rMk7ZFEMq3HYl/hYNBMBrR/juiSzclEU0oUCf3koxFbVKL8Srad8Vhyv8jEnOaMn78TCnahmHhp1SCQ==}
+  '@dprint/darwin-x64@0.57.4':
+    resolution: {integrity: sha512-dQfzBLBQro1O+CxIkIVc9LJqgYsWCKXTf+3QA0Gq/NjW6KPBwlbiCquew3UOeWwGEvarNSA0/Rvz5J8HnykTPA==}
     cpu: [x64]
     os: [darwin]
 
-  '@dprint/linux-arm64-glibc@0.55.1':
-    resolution: {integrity: sha512-vt7w+aL2MjtD3RRfnUTDuK/b7xg1/feBe3WoV0S2rGNmPEJI+K7wwBXkOl/I77V9w3PP2zvN/aRY5dMOZrkbSg==}
+  '@dprint/linux-arm64-glibc@0.57.4':
+    resolution: {integrity: sha512-zFCgx2E2szEnMgtBCKiI/G5vV5mi7rnTVDMB2FrIa6JheqF8pgfrx6m3HWzIed74cFM3/KCH0LmIfCNZT5vRfw==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
-  '@dprint/linux-arm64-musl@0.55.1':
-    resolution: {integrity: sha512-7shUIOvJcTn4IYEPlb/Up4KLt5kbDuCTdc3DN68i88XT+nRBFQatD7Qok+6Ysra34KJMxF88QVHiimjH1ABy4A==}
+  '@dprint/linux-arm64-musl@0.57.4':
+    resolution: {integrity: sha512-8DV33dU5c5vp/TJJp4Dy/4HYc4r5KidlMJgoiG0S9JMygVGjhrXRNiI/C7M9hLgsamqeLYt4MWfEGKvtgOwoew==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
-  '@dprint/linux-loong64-glibc@0.55.1':
-    resolution: {integrity: sha512-G2mXiOGpkeC3LP8huSnImxU7hMvRY6rHIW+yBuw1vDDm5r6+H9CVhcXr3TMOk3poZ7IlWwQnDmP0/RuGQUEpYw==}
+  '@dprint/linux-loong64-glibc@0.57.4':
+    resolution: {integrity: sha512-166HbqGPMiKjCUuaiG6xyKrw8EKFF6vPBcmwFWUYHpZE6ipVVxt1Zen9957FXoxqyA5aspmK72eQGm72dQI2Yg==}
     cpu: [loong64]
     os: [linux]
+    libc: [glibc]
 
-  '@dprint/linux-loong64-musl@0.55.1':
-    resolution: {integrity: sha512-uO2r4QPYawDfQUyATr0opqfMkG2hVpz3yScRKs5ve9PWzqx2f5kJaaLuLVoXwSbWqDkozMGPcldAVSpOwGJ24Q==}
+  '@dprint/linux-loong64-musl@0.57.4':
+    resolution: {integrity: sha512-TTNKhwDj4qCWSiP20pdktb/mF0MfjVnXEcCXAd37ll6lx+ri4M5aQKyeyFL1pVGU9msjQv++UTU7MGF9uKfOzA==}
     cpu: [loong64]
     os: [linux]
+    libc: [musl]
 
-  '@dprint/linux-ppc64-glibc@0.55.1':
-    resolution: {integrity: sha512-NVR+BN4kTQd/vJ91YOGSkBotAM2f1hFD+HD5zq5Oc1djxjl1U2Zvc667UWKamxaXdv/ssZxkLuj0lbvbx9E3/A==}
+  '@dprint/linux-ppc64-glibc@0.57.4':
+    resolution: {integrity: sha512-kQGTaEoZIk+aHtEltz+nBQ54dhJ3dSxN4jxBOnK2wYCTaMkRnGxfF9Uwc29u/BL3Fw6ieDOJCSHy2VWFZdyctA==}
     cpu: [ppc64]
     os: [linux]
+    libc: [glibc]
 
-  '@dprint/linux-ppc64-musl@0.55.1':
-    resolution: {integrity: sha512-34Db83XGoKbwmvIY52sokywIMCmmIZM1vzw4ILlOkKugG51TltBOzLCssT9Rkfxz/TjR9dgwtBHEQJZjftuQ6Q==}
+  '@dprint/linux-ppc64-musl@0.57.4':
+    resolution: {integrity: sha512-NuhwpDFzyBovfpI3M47eBUju8eCxR7tfrMpPBWXyl9YgX0JeBZt6clOV/fwJ2P3DE/ARD9xoyQSGgHzDoSFlOQ==}
     cpu: [ppc64]
     os: [linux]
+    libc: [musl]
 
-  '@dprint/linux-riscv64-glibc@0.55.1':
-    resolution: {integrity: sha512-MVeYH48GhR3QkfhMhhYbXl9x+iO2sK1nNpr2ByJ4IKogHIlvlFff0eeukqAZZAod+rhAzJnLMBGgIDbIUHWK1g==}
+  '@dprint/linux-riscv64-glibc@0.57.4':
+    resolution: {integrity: sha512-pWBdHK8SKt9IGldbuZGbec37RyQqP4zqsWfpq7iyH+m33f7Aagus5ktvKF85KYfLTewIg+ev3vlxryB9iHBiNA==}
     cpu: [riscv64]
     os: [linux]
+    libc: [glibc]
 
-  '@dprint/linux-x64-glibc@0.55.1':
-    resolution: {integrity: sha512-ILHgXOIIXeZDjt51egaC4kmu744UuNfaauUM1El+dG9QGan4Vv4f0RRDDbQMKN95zTpacECuNKEhuUtS8euNWA==}
+  '@dprint/linux-x64-glibc@0.57.4':
+    resolution: {integrity: sha512-BYrSdjYo+nfUgXqgIbZZQnHvpM6UP7Dipfsuzxs0JmuHZRRkJIPjDdj/Qpbn/5Qv1gC4eV0cZsxRu8B634wkig==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
-  '@dprint/linux-x64-musl@0.55.1':
-    resolution: {integrity: sha512-SwWxWd313VkeH63fR4IlQCDfJNJ+mSw50BidP0PQInCNbUHYOIeWTcyzAaVa8GQdLvmhiNcJ0pmTDOL0F98QIQ==}
+  '@dprint/linux-x64-musl@0.57.4':
+    resolution: {integrity: sha512-pBRF5Kfv59FLtWYWWKpDLOv2+uTIr/XG2oMuRBiXXZom0b506aMm3zKCZ7z5ELeIYutPpASfkDbHcsyTY0ky6w==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
-  '@dprint/win32-arm64@0.55.1':
-    resolution: {integrity: sha512-9jiZWZ2AkaaXIkaOpOoiP6v0XxuBFp1Hyi3kUMUAY4NVCmvlSEDQhr+UZgnDhozYygDbAV13iNMLERDeoUa0nA==}
+  '@dprint/win32-arm64@0.57.4':
+    resolution: {integrity: sha512-bGEtcSjl6T4xjwr9nUF5kgd3174NP7yb338+Ulqq5DMYcSN4ibI62eVQKBTuyLWByz56aVOL06dj8pKTUzn+yQ==}
     cpu: [arm64]
     os: [win32]
 
-  '@dprint/win32-x64@0.55.1':
-    resolution: {integrity: sha512-+RmeJL8zzlEWTcrvyFN51rz0S98tV43Socs7xeVGE2S/EH5dG2fG2/fBe6RB3kuyZSfGqByApYeicIdshYIAgw==}
+  '@dprint/win32-x64@0.57.4':
+    resolution: {integrity: sha512-P91JJG2sDvK+SvZHdqjKygy7fYABbMH1KYop+WCowyjZUin09977qltdXwJ1vb77Cbi2OD0GWUuAlqO0PjNmaw==}
     cpu: [x64]
     os: [win32]
 
@@ -1046,8 +1055,8 @@ packages:
     resolution: {integrity: sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==}
     engines: {node: '>=8'}
 
-  dprint@0.55.1:
-    resolution: {integrity: sha512-tgUCT9gAM7veMvLX5NmRoYVLnKGKrIYRXpNpJDJj5U7/YIIJef5rLJhPZaJXwB7ad2Vo0Kv//nQM1xkrn5j8kQ==}
+  dprint@0.57.4:
+    resolution: {integrity: sha512-iiorgfJrrV7DDf7S9AB/d5ZB59Jn5idMDQoU7o6H9m6AvGVaLAPrGTAslmTwykkft9CYbWzqUrKjmKT80KWmAA==}
     hasBin: true
 
   enquirer@2.4.1:
@@ -1563,6 +1572,9 @@ packages:
   tree-sitter@0.21.1:
     resolution: {integrity: sha512-7dxoA6kYvtgWw80265MyqJlkRl4yawIjO7S5MigytjELkX43fV2WsAXzsNfO7sBpPPCF5Gp0+XzHk0DwLCq3xQ==}
 
+  tree-sitter@0.22.4:
+    resolution: {integrity: sha512-usbHZP9/oxNsUY65MQUsduGRqDHQOou1cagUSwjhoSYAmSahjQDAVsh9s+SlZkn8X8+O1FULRGwHu7AFP3kjzg==}
+
   typescript@5.9.3:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
@@ -1817,49 +1829,49 @@ snapshots:
       node-gyp-build: 4.8.4
       tree-sitter: 0.21.1
 
-  '@dprint/android-arm64@0.55.1':
+  '@dprint/android-arm64@0.57.4':
     optional: true
 
-  '@dprint/android-x64@0.55.1':
+  '@dprint/android-x64@0.57.4':
     optional: true
 
-  '@dprint/darwin-arm64@0.55.1':
+  '@dprint/darwin-arm64@0.57.4':
     optional: true
 
-  '@dprint/darwin-x64@0.55.1':
+  '@dprint/darwin-x64@0.57.4':
     optional: true
 
-  '@dprint/linux-arm64-glibc@0.55.1':
+  '@dprint/linux-arm64-glibc@0.57.4':
     optional: true
 
-  '@dprint/linux-arm64-musl@0.55.1':
+  '@dprint/linux-arm64-musl@0.57.4':
     optional: true
 
-  '@dprint/linux-loong64-glibc@0.55.1':
+  '@dprint/linux-loong64-glibc@0.57.4':
     optional: true
 
-  '@dprint/linux-loong64-musl@0.55.1':
+  '@dprint/linux-loong64-musl@0.57.4':
     optional: true
 
-  '@dprint/linux-ppc64-glibc@0.55.1':
+  '@dprint/linux-ppc64-glibc@0.57.4':
     optional: true
 
-  '@dprint/linux-ppc64-musl@0.55.1':
+  '@dprint/linux-ppc64-musl@0.57.4':
     optional: true
 
-  '@dprint/linux-riscv64-glibc@0.55.1':
+  '@dprint/linux-riscv64-glibc@0.57.4':
     optional: true
 
-  '@dprint/linux-x64-glibc@0.55.1':
+  '@dprint/linux-x64-glibc@0.57.4':
     optional: true
 
-  '@dprint/linux-x64-musl@0.55.1':
+  '@dprint/linux-x64-musl@0.57.4':
     optional: true
 
-  '@dprint/win32-arm64@0.55.1':
+  '@dprint/win32-arm64@0.57.4':
     optional: true
 
-  '@dprint/win32-x64@0.55.1':
+  '@dprint/win32-x64@0.57.4':
     optional: true
 
   '@inquirer/external-editor@1.0.3(@types/node@24.13.2)':
@@ -1954,10 +1966,12 @@ snapshots:
   '@oxlint/binding-win32-x64-msvc@1.67.0':
     optional: true
 
-  '@tree-sitter-grammars/tree-sitter-lua@0.4.1':
+  '@tree-sitter-grammars/tree-sitter-lua@0.4.1(tree-sitter@0.22.4)':
     dependencies:
       node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   '@tree-sitter-grammars/tree-sitter-markdown@0.3.2(tree-sitter@0.21.1)':
     dependencies:
@@ -1965,15 +1979,19 @@ snapshots:
       node-gyp-build: 4.8.4
       tree-sitter: 0.21.1
 
-  '@tree-sitter-grammars/tree-sitter-toml@0.7.0':
+  '@tree-sitter-grammars/tree-sitter-toml@0.7.0(tree-sitter@0.22.4)':
     dependencies:
       node-addon-api: 8.3.0
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
-  '@tree-sitter-grammars/tree-sitter-yaml@0.7.1':
+  '@tree-sitter-grammars/tree-sitter-yaml@0.7.1(tree-sitter@0.22.4)':
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   '@types/node@12.20.55': {}
 
@@ -2020,23 +2038,23 @@ snapshots:
     dependencies:
       path-type: 4.0.0
 
-  dprint@0.55.1:
+  dprint@0.57.4:
     optionalDependencies:
-      '@dprint/android-arm64': 0.55.1
-      '@dprint/android-x64': 0.55.1
-      '@dprint/darwin-arm64': 0.55.1
-      '@dprint/darwin-x64': 0.55.1
-      '@dprint/linux-arm64-glibc': 0.55.1
-      '@dprint/linux-arm64-musl': 0.55.1
-      '@dprint/linux-loong64-glibc': 0.55.1
-      '@dprint/linux-loong64-musl': 0.55.1
-      '@dprint/linux-ppc64-glibc': 0.55.1
-      '@dprint/linux-ppc64-musl': 0.55.1
-      '@dprint/linux-riscv64-glibc': 0.55.1
-      '@dprint/linux-x64-glibc': 0.55.1
-      '@dprint/linux-x64-musl': 0.55.1
-      '@dprint/win32-arm64': 0.55.1
-      '@dprint/win32-x64': 0.55.1
+      '@dprint/android-arm64': 0.57.4
+      '@dprint/android-x64': 0.57.4
+      '@dprint/darwin-arm64': 0.57.4
+      '@dprint/darwin-x64': 0.57.4
+      '@dprint/linux-arm64-glibc': 0.57.4
+      '@dprint/linux-arm64-musl': 0.57.4
+      '@dprint/linux-loong64-glibc': 0.57.4
+      '@dprint/linux-loong64-musl': 0.57.4
+      '@dprint/linux-ppc64-glibc': 0.57.4
+      '@dprint/linux-ppc64-musl': 0.57.4
+      '@dprint/linux-riscv64-glibc': 0.57.4
+      '@dprint/linux-x64-glibc': 0.57.4
+      '@dprint/linux-x64-musl': 0.57.4
+      '@dprint/win32-arm64': 0.57.4
+      '@dprint/win32-x64': 0.57.4
 
   enquirer@2.4.1:
     dependencies:
@@ -2294,10 +2312,12 @@ snapshots:
       node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
 
-  tree-sitter-bicep@1.1.0:
+  tree-sitter-bicep@1.1.0(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   tree-sitter-c-sharp@0.23.5:
     dependencies:
@@ -2309,10 +2329,12 @@ snapshots:
       node-addon-api: 8.8.0
       node-gyp-build: 4.8.4
 
-  tree-sitter-c@0.24.1:
+  tree-sitter-c@0.24.1(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   tree-sitter-cli@0.23.2: {}
 
@@ -2402,10 +2424,12 @@ snapshots:
       node-gyp-build: 4.8.4
       tree-sitter: 0.21.1
 
-  tree-sitter-php@0.24.2:
+  tree-sitter-php@0.24.2(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.5.0
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   tree-sitter-python@0.25.0:
     dependencies:
@@ -2419,10 +2443,12 @@ snapshots:
     optionalDependencies:
       tree-sitter: 0.21.1
 
-  tree-sitter-rust@0.23.2:
+  tree-sitter-rust@0.23.2(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.22.4
 
   tree-sitter-scala@0.24.0(tree-sitter@0.21.1):
     dependencies:
@@ -2431,11 +2457,11 @@ snapshots:
     optionalDependencies:
       tree-sitter: 0.21.1
 
-  tree-sitter-swift@0.7.1(tree-sitter@0.21.1):
+  tree-sitter-swift@0.7.1(tree-sitter@0.22.4):
     dependencies:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
-      tree-sitter: 0.21.1
+      tree-sitter: 0.22.4
       tree-sitter-cli: 0.23.2
       which: 2.0.2
 
@@ -2448,6 +2474,11 @@ snapshots:
       tree-sitter: 0.21.1
 
   tree-sitter@0.21.1:
+    dependencies:
+      node-addon-api: 8.8.0
+      node-gyp-build: 4.8.4
+
+  tree-sitter@0.22.4:
     dependencies:
       node-addon-api: 8.8.0
       node-gyp-build: 4.8.4
