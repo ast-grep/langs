@@ -165,6 +165,22 @@ importers:
         specifier: 0.3.5
         version: 0.3.5(tree-sitter@0.21.1)
 
+  packages/gdscript:
+    dependencies:
+      '@ast-grep/setup-lang':
+        specifier: 0.0.6
+        version: 0.0.6
+    devDependencies:
+      '@ast-grep/nursery':
+        specifier: 0.0.9
+        version: 0.0.9
+      tree-sitter-cli:
+        specifier: 0.26.7
+        version: 0.26.7
+      tree-sitter-gdscript:
+        specifier: 6.1.0
+        version: 6.1.0(tree-sitter@0.21.1)
+
   packages/glimmer-javascript:
     dependencies:
       '@ast-grep/setup-lang':
@@ -1428,6 +1444,14 @@ packages:
     peerDependencies:
       tree-sitter: ^0.21.0
 
+  tree-sitter-gdscript@6.1.0:
+    resolution: {integrity: sha512-Uy5+GWLkec2JaS1mamiJYsC9j/JoW2FxFq4bnji95gyTtMTsqO6+RSVIaBTU/vRGSNEi3PVDZzyV0j3B4RdntA==}
+    peerDependencies:
+      tree-sitter: ^0.21.1
+    peerDependenciesMeta:
+      tree-sitter:
+        optional: true
+
   tree-sitter-glimmer-javascript@0.2.0:
     resolution: {integrity: sha512-2EkpfYxsfNGWuGx3CmNRibkBMe739wtHLiRaQSsjXn3te8Ugk1lcqj3ZYAlwdid+ywe4+5nbc4ZsiJbeRIc2qw==}
     peerDependencies:
@@ -2358,6 +2382,13 @@ snapshots:
     dependencies:
       node-addon-api: 7.1.1
       node-gyp-build: 4.8.4
+      tree-sitter: 0.21.1
+
+  tree-sitter-gdscript@6.1.0(tree-sitter@0.21.1):
+    dependencies:
+      node-addon-api: 8.8.0
+      node-gyp-build: 4.8.4
+    optionalDependencies:
       tree-sitter: 0.21.1
 
   tree-sitter-glimmer-javascript@0.2.0(tree-sitter@0.21.1):
