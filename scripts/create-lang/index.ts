@@ -1,4 +1,4 @@
-import { execSync } from 'node:child_process'
+import { execFileSync, execSync } from 'node:child_process'
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import prompts from 'prompts'
@@ -113,9 +113,11 @@ async function renameFiles(dir: string, answer: Answers) {
 }
 function installTreeSitterPackage(cwd: string, answer: Answers) {
   console.log('Installing tree-sitter package...')
-  execSync(`pnpm install ${answer.treeSitterPackage} --save-dev --save-exact`, {
-    cwd,
-  })
+  execFileSync(
+    'pnpm',
+    ['install', answer.treeSitterPackage, '--save-dev', '--save-exact'],
+    { cwd },
+  )
   console.log('Copying source code...')
   execSync('pnpm run source', { cwd })
   console.log('Compiling')
