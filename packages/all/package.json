@@ -1,0 +1,71 @@
+{
+  "name": "@ast-grep/all-langs",
+  "version": "0.0.0",
+  "description": "Exports all officially supported languages.",
+  "keywords": ["ast-grep"],
+  "homepage": "https://github.com/ast-grep/langs/tree/main/packages/all",
+  "bugs": {
+    "url": "https://github.com/ast-grep/langs/issues"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "CodeRabbit",
+    "url": "https://www.coderabbit.ai"
+  },
+  "files": ["dist", "!dist/**/*.test.*"],
+  "main": "dist/index.js",
+  "repository": "github:ast-grep/langs",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist docs node_modules tsconfig.tsbuildinfo",
+    "format": "biome format --write",
+    "format:ci": "biome format",
+    "lint": "biome lint --fix",
+    "lint:ci": "biome lint",
+    "pretest": "tsc",
+    "test": "node --test './dist/**/*.test.js'"
+  },
+  "dependencies": {
+    "@ast-grep/lang-angular": "workspace:*",
+    "@ast-grep/lang-bash": "workspace:*",
+    "@ast-grep/lang-c": "workspace:*",
+    "@ast-grep/lang-cpp": "workspace:*",
+    "@ast-grep/lang-csharp": "workspace:*",
+    "@ast-grep/lang-css": "workspace:*",
+    "@ast-grep/lang-dart": "workspace:*",
+    "@ast-grep/lang-elixir": "workspace:*",
+    "@ast-grep/lang-go": "workspace:*",
+    "@ast-grep/lang-haskell": "workspace:*",
+    "@ast-grep/lang-html": "workspace:*",
+    "@ast-grep/lang-java": "workspace:*",
+    "@ast-grep/lang-javascript": "workspace:*",
+    "@ast-grep/lang-json": "workspace:*",
+    "@ast-grep/lang-kotlin": "workspace:*",
+    "@ast-grep/lang-lua": "workspace:*",
+    "@ast-grep/lang-php": "workspace:*",
+    "@ast-grep/lang-python": "workspace:*",
+    "@ast-grep/lang-ruby": "workspace:*",
+    "@ast-grep/lang-rust": "workspace:*",
+    "@ast-grep/lang-scala": "workspace:*",
+    "@ast-grep/lang-sql": "workspace:*",
+    "@ast-grep/lang-swift": "workspace:*",
+    "@ast-grep/lang-toml": "workspace:*",
+    "@ast-grep/lang-tsx": "workspace:*",
+    "@ast-grep/lang-typescript": "workspace:*",
+    "@ast-grep/lang-yaml": "workspace:*",
+    "@ast-grep/napi": "^0.37.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.1",
+    "typescript": "^5.8.3"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js"
+}
