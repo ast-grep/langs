@@ -540,8 +540,8 @@ importers:
         version: 2.4.2
     devDependencies:
       '@types/node':
-        specifier: 24.13.2
-        version: 24.13.2
+        specifier: 24.13.6
+        version: 24.13.6
       '@types/prompts':
         specifier: ^2.4.9
         version: 2.4.9
@@ -556,8 +556,8 @@ importers:
         version: 0.41.1
     devDependencies:
       '@types/node':
-        specifier: 24.13.2
-        version: 24.13.2
+        specifier: 24.13.6
+        version: 24.13.6
       typescript:
         specifier: ^5.7.3
         version: 5.9.3
@@ -565,8 +565,8 @@ importers:
   scripts/setup:
     devDependencies:
       '@types/node':
-        specifier: 24.13.2
-        version: 24.13.2
+        specifier: 24.13.6
+        version: 24.13.6
       typescript:
         specifier: ^5.7.3
         version: 5.9.3
@@ -1025,6 +1025,9 @@ packages:
 
   '@types/node@24.13.2':
     resolution: {integrity: sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==}
+
+  '@types/node@24.13.6':
+    resolution: {integrity: sha512-SGrw/h3KPFshy3OE6ZL53LMBG5vGQQ8/gIpiqz/kRZhPJ7HgwCEs8LBuNtWLa8dvGZVpSF7+Bf+c11HUrCb/yg==}
 
   '@types/prompts@2.4.9':
     resolution: {integrity: sha512-qTxFi6Buiu8+50/+3DGIWLHM6QuWsEKugJnnP6iv2Mc4ncxE4A/OJkjuVOA+5X0X1S/nq5VJRa8Lu+nwcvbrKA==}
@@ -2021,10 +2024,15 @@ snapshots:
   '@types/node@24.13.2':
     dependencies:
       undici-types: 7.18.2
+    optional: true
+
+  '@types/node@24.13.6':
+    dependencies:
+      undici-types: 7.18.2
 
   '@types/prompts@2.4.9':
     dependencies:
-      '@types/node': 24.13.2
+      '@types/node': 24.13.6
       kleur: 3.0.3
 
   ansi-colors@4.1.3: {}
